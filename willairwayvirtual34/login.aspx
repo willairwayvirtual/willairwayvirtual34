@@ -55,8 +55,12 @@
                     </td>
                 </tr>
             </table>
-            <asp:Button ID="Button1" runat="server" Text="login" Width="504px" />
         </div>
+        <p class="auto-style1">
+            <asp:Button ID="Button1" runat="server" BackColor="Yellow" CssClass="auto-style6" Text="login" Width="272px" />
+        </p>
     </form>
+    <p class="auto-style1">
+        &nbsp;</p>
 </body>
 </html>
