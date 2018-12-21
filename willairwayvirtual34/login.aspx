@@ -58,6 +58,7 @@
         </div>
         <p class="auto-style1">
             <asp:Button ID="Button1" runat="server" BackColor="Yellow" CssClass="auto-style6" Text="login" Width="272px" />
+            <asp:Button ID="Button2" runat="server" CssClass="auto-style6" Text="Forgotten your password?" Width="298px" />
         </p>
     </form>
     <p class="auto-style1">
