@@ -22,7 +22,6 @@
             font-size: xx-large;
         }
         .auto-style7 {
-            text-align: right;
             font-size: x-large;
         }
     </style>
@@ -34,7 +33,8 @@
                 Welcome to Willairways Virtual<o:p></o:p>
             </p>
             <p class="auto-style7">
-                &nbsp;</p>
+                <asp:Label ID="Label2" runat="server" Text="Willairways Virtual the&nbsp;most popular&nbsp;flight simulation community"></asp:Label>
+            </p>
             <p class="auto-style5">
                 &nbsp;</p>
             <p class="auto-style5">
@@ -42,9 +42,9 @@
             <p class="auto-style5">
                 &nbsp;</p>
             <p class="auto-style5">
-                <asp:Button ID="Button1" runat="server" CssClass="auto-style6" Text="login" Width="115px" />
-                <asp:Button ID="Button2" runat="server" CssClass="auto-style6" Text="register" Width="151px" />
-                <asp:Button ID="Button3" runat="server" CssClass="auto-style6" Text="Download" />
+                <asp:Button ID="login" runat="server" CssClass="auto-style6" Text="login" Width="115px" />
+                <asp:Button ID="register" runat="server" CssClass="auto-style6" Text="register" Width="151px" />
+                <asp:Button ID="Download" runat="server" CssClass="auto-style6" Text="Download" />
             </p>
         </div>
     </form>
