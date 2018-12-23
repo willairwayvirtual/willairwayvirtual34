@@ -51,13 +51,13 @@
                 <tr>
                     <td class="auto-style3">Username</td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style6" Width="275px"></asp:TextBox>
+                        <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style6" Width="285px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style4">Password </td>
                     <td class="auto-style7">
-                        <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style6" TextMode="Password" Width="275px"></asp:TextBox>
+                        <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style6" TextMode="Password" Width="286px"></asp:TextBox>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
                 </tr>
