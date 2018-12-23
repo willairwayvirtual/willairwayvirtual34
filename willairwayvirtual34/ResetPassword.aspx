@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Reset Password .aspx.vb" Inherits="Reset_Password_" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="ResetPassword.aspx.vb" Inherits="Reset_Password_" %>
 
 <!DOCTYPE html>
 
@@ -59,7 +59,7 @@
             </tr>
         </table>
         <asp:Button ID="Button1" runat="server" Text="Update Password " Width="835px" />
-        <asp:Button ID="Button2" runat="server" Text="back to the login screenback to the login screen" Width="299px" />
+        <asp:Button ID="Button2" runat="server" Text="back to the login screen" Width="299px" />
     </form>
 </body>
 </html>

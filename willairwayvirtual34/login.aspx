@@ -14,11 +14,11 @@
         }
         .auto-style3 {
             text-align: right;
-            width: 283px;
+            width: 267px;
             font-size: x-large;
         }
         .auto-style4 {
-            width: 283px;
+            width: 267px;
             height: 63px;
             font-size: x-large;
             text-align: right;
@@ -32,6 +32,12 @@
         .auto-style7 {
             width: 527px;
             height: 63px;
+        }
+        .auto-style8 {
+            font-size: xx-large;
+        }
+        .auto-style9 {
+            width: 267px;
         }
     </style>
 </head>
@@ -52,6 +58,12 @@
                     <td class="auto-style4">Password </td>
                     <td class="auto-style7">
                         <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style6" TextMode="Password" Width="275px"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style9">&nbsp;&nbsp;&nbsp;
+                        <asp:CheckBox ID="CheckBox1" runat="server" CssClass="auto-style8" Text="Remember me" />
                     </td>
                 </tr>
             </table>

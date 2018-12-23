@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Create an Account.aspx.vb" Inherits="Create_an_Account" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="CreateAccount.aspx.vb" Inherits="Create_an_Account" %>
 
 <!DOCTYPE html>
 
@@ -25,17 +25,20 @@
             font-size: xx-large;
         }
         .auto-style6 {
-            width: 459px;
+            width: 413px;
             text-align: center;
-        }
-        .auto-style7 {
-            width: 165px;
         }
         .auto-style8 {
             text-align: center;
         }
         .auto-style9 {
             font-size: xx-large;
+        }
+        .auto-style10 {
+            width: 174px;
+        }
+        .auto-style11 {
+            width: 562px;
         }
     </style>
 </head>
@@ -49,8 +52,8 @@
                 <td class="auto-style6">
                     <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style9" Width="433px"></asp:TextBox>
                 </td>
-                <td class="auto-style7">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style11">&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
@@ -58,8 +61,8 @@
                 <td class="auto-style6">
                     <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style9" Width="433px"></asp:TextBox>
                 </td>
-                <td class="auto-style7">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style11">&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
@@ -67,8 +70,8 @@
                 <td class="auto-style6">
                     <asp:TextBox ID="TextBox3" runat="server" CssClass="auto-style9" Width="433px"></asp:TextBox>
                 </td>
-                <td class="auto-style7">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style11">&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
@@ -76,8 +79,8 @@
                 <td class="auto-style6">
                     <asp:TextBox ID="TextBox4" runat="server" CssClass="auto-style9" Width="433px"></asp:TextBox>
                 </td>
-                <td class="auto-style7">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style11">&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
@@ -85,23 +88,24 @@
                 <td class="auto-style6">
                     <asp:TextBox ID="TextBox5" runat="server" CssClass="auto-style9" TextMode="Password" Width="433px"></asp:TextBox>
                 </td>
-                <td class="auto-style7">
+                <td class="auto-style11">
                     <asp:Label ID="Label1" runat="server" ForeColor="Red" Text="Minimum of 4 characters"></asp:Label>
                 </td>
-                <td>&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style5">Confirm Password</td>
                 <td class="auto-style6">
-                    <asp:TextBox ID="TextBox6" runat="server" CssClass="auto-style9" TextMode="Password" Width="433px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox6" runat="server" CssClass="auto-style9" TextMode="Password" Width="491px"></asp:TextBox>
                 </td>
-                <td class="auto-style7">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style11">&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
         </table>
         <p class="auto-style8">
+            <asp:Button ID="back" runat="server" Text="back" Width="151px" />
             <asp:Button ID="Button1" runat="server" Text="sign up in to willairways Virtual" Width="508px" />
         </p>
     </form>
