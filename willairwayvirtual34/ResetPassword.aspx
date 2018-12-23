@@ -59,7 +59,7 @@
             </tr>
         </table>
         <asp:Button ID="Button1" runat="server" Text="Update Password " Width="835px" />
-        <asp:Button ID="Button2" runat="server" Text="back to the login screen" Width="299px" />
+        <asp:Button ID="Button2" runat="server" Text="back to the login screen" Width="838px" />
     </form>
 </body>
 </html>
