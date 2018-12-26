@@ -14,64 +14,64 @@
             width: 100%;
         }
         .auto-style3 {
-            text-align: center;
-            width: 187px;
+            text-align: left;
+            width: 188px;
             height: 84px;
         }
         .auto-style5 {
             height: 84px;
-            text-align: center;
+            text-align: left;
         }
         .auto-style6 {
             height: 84px;
-            text-align: center;
-            width: 201px;
+            text-align: left;
+            width: 37px;
         }
         .auto-style8 {
-            text-align: center;
+            text-align: left;
             width: 178px;
             height: 84px;
         }
         .auto-style10 {
-            text-align: center;
+            text-align: left;
             width: 150px;
             height: 84px;
         }
-        .auto-style12 {
-            width: 187px;
-            height: 55px;
-            text-align: center;
-        }
         .auto-style13 {
-            width: 201px;
-            height: 55px;
-            text-align: center;
+            width: 37px;
+            height: 59px;
+            text-align: left;
         }
         .auto-style14 {
             width: 178px;
-            height: 55px;
-            text-align: center;
+            height: 59px;
+            text-align: left;
         }
         .auto-style15 {
             width: 150px;
-            height: 55px;
-            text-align: center;
+            height: 59px;
+            text-align: left;
         }
         .auto-style16 {
-            height: 55px;
-            text-align: center;
+            height: 59px;
+            text-align: left;
         }
         .auto-style17 {
-            width: 187px;
+            width: 188px;
             height: 40px;
             text-align: center;
         }
         .auto-style18 {
-            width: 201px;
+            width: 37px;
             height: 40px;
         }
         .auto-style22 {
             text-align: center;
+        }
+        .auto-style23 {
+            width: 188px;
+            height: 59px;
+            text-align: left;
         }
     </style>
 </head>
@@ -97,7 +97,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style12">Type aircraft<br />
+                <td class="auto-style23">Type aircraft<br />
                     <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
                 </td>
                 <td class="auto-style13">TRIP FUEL<br />
@@ -125,8 +125,10 @@
         <p class="auto-style22">
             ATC ROUTE</p>
         <p class="auto-style22">
-            <asp:TextBox ID="TextBox12" runat="server" Height="373px" Width="905px"></asp:TextBox>
+            <asp:TextBox ID="TextBox12" runat="server" Height="342px" Width="1030px"></asp:TextBox>
         </p>
+        <p class="auto-style22">
+            &nbsp;</p>
     </form>
 </body>
 </html>
