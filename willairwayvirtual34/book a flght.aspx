@@ -49,7 +49,7 @@
             <tr>
                 <td class="auto-style3">FltNum</td>
                 <td>
-                    <asp:TextBox ID="TextBox1" runat="server" Height="52px" Width="715px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Height="32px" Width="715px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -59,7 +59,7 @@
             <tr>
                 <td class="auto-style3">DeptAir</td>
                 <td>
-                    <asp:TextBox ID="TextBox2" runat="server" Height="65px" Width="715px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" runat="server" Height="29px" Width="715px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -69,7 +69,7 @@
             <tr>
                 <td class="auto-style3">ArrAir</td>
                 <td>
-                    <asp:TextBox ID="TextBox3" runat="server" Height="49px" Width="715px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" runat="server" Height="24px" Width="715px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -79,7 +79,7 @@
             <tr>
                 <td class="auto-style4">Departure time</td>
                 <td class="auto-style5">
-                    <asp:TextBox ID="TextBox4" runat="server" Height="45px" Width="715px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox4" runat="server" Height="26px" Width="715px"></asp:TextBox>
                 </td>
                 <td class="auto-style5"></td>
                 <td class="auto-style5"></td>
