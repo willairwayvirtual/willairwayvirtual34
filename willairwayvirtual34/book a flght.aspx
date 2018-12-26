@@ -15,10 +15,12 @@
         }
         .auto-style3 {
             width: 181px;
+            font-size: x-large;
         }
         .auto-style4 {
             width: 181px;
             height: 26px;
+            font-size: x-large;
         }
         .auto-style5 {
             height: 26px;
@@ -28,6 +30,14 @@
         }
         .auto-style8 {
             margin-top: 7px;
+        }
+        .auto-style9 {
+            width: 181px;
+            font-size: x-large;
+            height: 46px;
+        }
+        .auto-style10 {
+            height: 46px;
         }
     </style>
 </head>
@@ -39,7 +49,7 @@
             <tr>
                 <td class="auto-style3">FltNum</td>
                 <td>
-                    <asp:TextBox ID="TextBox1" runat="server" Width="715px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Height="52px" Width="715px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -49,7 +59,7 @@
             <tr>
                 <td class="auto-style3">DeptAir</td>
                 <td>
-                    <asp:TextBox ID="TextBox2" runat="server" Width="715px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" runat="server" Height="65px" Width="715px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -59,7 +69,7 @@
             <tr>
                 <td class="auto-style3">ArrAir</td>
                 <td>
-                    <asp:TextBox ID="TextBox3" runat="server" Width="715px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" runat="server" Height="49px" Width="715px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -69,7 +79,7 @@
             <tr>
                 <td class="auto-style4">Departure time</td>
                 <td class="auto-style5">
-                    <asp:TextBox ID="TextBox4" runat="server" Width="715px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox4" runat="server" Height="45px" Width="715px"></asp:TextBox>
                 </td>
                 <td class="auto-style5"></td>
                 <td class="auto-style5"></td>
@@ -77,14 +87,14 @@
                 <td class="auto-style5"></td>
             </tr>
             <tr>
-                <td class="auto-style3">Uname</td>
-                <td>
+                <td class="auto-style9">Uname</td>
+                <td class="auto-style10">
                     <asp:TextBox ID="TextBox5" runat="server" Width="715px"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style10"></td>
+                <td class="auto-style10"></td>
+                <td class="auto-style10"></td>
+                <td class="auto-style10"></td>
             </tr>
             <tr>
                 <td class="auto-style3">date please use short dates</td>
