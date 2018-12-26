@@ -121,7 +121,7 @@
                     <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
                 </td>
                 <td class="auto-style18">
-                    <asp:Button ID="Button1" runat="server" Text="Button" Width="225px" />
+                    <asp:Button ID="Button1" runat="server" Text="SEND  FlightPlan  to Network Control" Width="225px" />
                 </td>
             </tr>
         </table>
