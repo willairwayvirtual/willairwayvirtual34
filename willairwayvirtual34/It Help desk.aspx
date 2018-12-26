@@ -59,12 +59,12 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style9">&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="Button1" runat="server" Text="Button" Width="245px" />
+                    <td class="auto-style9">&nbsp;<asp:Button ID="Button1" runat="server" Text="Button" Width="245px" />
+                        &nbsp;&nbsp;
                     </td>
                 </tr>
             </table>
-        <asp:TextBox ID="TextBox3" runat="server" Height="285px" Width="1297px"></asp:TextBox>
+        <asp:TextBox ID="TextBox3" runat="server" Height="285px" TextMode="MultiLine" Width="1297px"></asp:TextBox>
     </form>
 </body>
 </html>

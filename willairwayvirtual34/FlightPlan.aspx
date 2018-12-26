@@ -73,6 +73,9 @@
             height: 59px;
             text-align: left;
         }
+        .auto-style24 {
+            margin-left: 0px;
+        }
     </style>
 </head>
 <body>
@@ -125,7 +128,7 @@
         <p class="auto-style22">
             ATC ROUTE</p>
         <p class="auto-style22">
-            <asp:TextBox ID="TextBox12" runat="server" Height="342px" Width="1030px"></asp:TextBox>
+            <asp:TextBox ID="TextBox12" runat="server" CssClass="auto-style24" Height="342px" TextMode="MultiLine" Width="1613px"></asp:TextBox>
         </p>
         <p class="auto-style22">
             &nbsp;</p>
