@@ -6,7 +6,13 @@ Partial Class login
         Response.Redirect("ResetPassword.aspx")
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Response.Redirect("createaccount.aspx")
+
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Response.Redirect("Create an Accountaspx.aspx")
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1l.Click
+
     End Sub
 End Class

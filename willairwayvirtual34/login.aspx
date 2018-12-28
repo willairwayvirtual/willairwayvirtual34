@@ -19,7 +19,7 @@
         }
         .auto-style4 {
             width: 267px;
-            height: 63px;
+            height: 78px;
             font-size: x-large;
             text-align: right;
         }
@@ -31,7 +31,7 @@
         }
         .auto-style7 {
             width: 527px;
-            height: 63px;
+            height: 78px;
         }
         .auto-style8 {
             font-size: xx-large;
@@ -40,10 +40,7 @@
             width: 267px;
             height: 40px;
         }
-        .auto-style10 {
-            font-size: large;
-        }
-    </style>
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -73,9 +70,9 @@
             </table>
         </div>
         <p class="auto-style1">
-            <asp:Button ID="Button1" runat="server" BackColor="Yellow" CssClass="auto-style6" Text="login" Width="272px" />
-            <asp:Button ID="Button2" runat="server" CssClass="auto-style6" Text="Forgotten your password?" Width="298px" />
-            <asp:Button ID="Button3" runat="server" BackColor="#999999" CssClass="auto-style10" Height="52px" Text="Need an account?" Width="277px" />
+            <asp:Button ID="Button1l" runat="server" BackColor="Yellow" CssClass="auto-style6" Text="login" Width="272px" />
+            <asp:Button ID="Button2" runat="server" CssClass="auto-style6" Text="Forgotten your password?" Width="298px" BorderColor="White" BackColor="#999999" />
+            <asp:Button ID="Button4" runat="server" CssClass="auto-style6" Text="Need an account?" Width="298px" BorderColor="White" BackColor="#999999" />
         </p>
     <p class="auto-style1">
         &nbsp;</p>

@@ -6,6 +6,6 @@ Partial Class willairwayvirtuat_home1page
         Response.Redirect("login.aspx")
     End Sub
     Protected Sub register_Click(sender As Object, e As EventArgs) Handles register.Click
-        Response.Redirect("createaccount.aspx")
+        Response.Redirect("Create an Accountaspx.aspx")
     End Sub
 End Class
