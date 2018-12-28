@@ -93,7 +93,7 @@
             <tr>
                 <td class="auto-style6">Confirm Password</td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="TextBox6" runat="server" CssClass="auto-style7" TextMode="Password" Width="398px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox6" runat="server" CssClass="auto-style7" Height="16px" TextMode="Password" Width="398px"></asp:TextBox>
                 </td>
                 <td class="auto-style8">&nbsp;</td>
                 <td>&nbsp;</td>
