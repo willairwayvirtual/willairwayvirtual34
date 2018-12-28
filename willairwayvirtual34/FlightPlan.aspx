@@ -75,6 +75,7 @@
         }
         .auto-style24 {
             margin-left: 0px;
+            font-size: xx-large;
         }
     </style>
 </head>

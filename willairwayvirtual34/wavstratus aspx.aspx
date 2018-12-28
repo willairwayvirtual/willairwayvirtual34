@@ -19,7 +19,7 @@
         <div>
             <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style1" />
 &nbsp;&nbsp;&nbsp;
-            <asp:Label ID="Label1" runat="server" CssClass="auto-style2" Text="Label"></asp:Label>
+            <asp:Label ID="Label1" runat="server" CssClass="auto-style2" Text="Label1"></asp:Label>
             <br />
             <br />
             <br />

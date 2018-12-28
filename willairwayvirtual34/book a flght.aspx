@@ -30,6 +30,7 @@
         }
         .auto-style8 {
             margin-top: 7px;
+            font-size: medium;
         }
         .auto-style9 {
             width: 181px;
@@ -89,7 +90,7 @@
             <tr>
                 <td class="auto-style9">Uname</td>
                 <td class="auto-style10">
-                    <asp:TextBox ID="TextBox5" runat="server" Width="715px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox5" runat="server" Width="715px" CssClass="auto-style7"></asp:TextBox>
                 </td>
                 <td class="auto-style10"></td>
                 <td class="auto-style10"></td>

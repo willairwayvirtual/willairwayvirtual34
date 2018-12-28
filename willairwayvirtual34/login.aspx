@@ -38,6 +38,10 @@
         }
         .auto-style9 {
             width: 267px;
+            height: 40px;
+        }
+        .auto-style10 {
+            font-size: large;
         }
     </style>
 </head>
@@ -71,6 +75,7 @@
         <p class="auto-style1">
             <asp:Button ID="Button1" runat="server" BackColor="Yellow" CssClass="auto-style6" Text="login" Width="272px" />
             <asp:Button ID="Button2" runat="server" CssClass="auto-style6" Text="Forgotten your password?" Width="298px" />
+            <asp:Button ID="Button3" runat="server" BackColor="#999999" CssClass="auto-style10" Height="52px" Text="Need an account?" Width="277px" />
         </p>
     <p class="auto-style1">
         &nbsp;</p>

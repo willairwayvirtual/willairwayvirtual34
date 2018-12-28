@@ -64,7 +64,7 @@
                     <asp:Button ID="Button1" runat="server" Text="Search Schedule" Width="161px" />
                     <br />
                     All bookings to be completed by 1900z
-                    <asp:Button ID="Button2" runat="server" Text="Button" Width="158px" />
+                    <asp:Button ID="Button2" runat="server" Text="go to book a flght" Width="158px" />
                 </td>
             </tr>
         </table>
