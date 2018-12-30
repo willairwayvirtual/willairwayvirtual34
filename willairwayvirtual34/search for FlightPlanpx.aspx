@@ -49,7 +49,7 @@
 <body>
     <form id="form1" runat="server">
         <div class="auto-style1">
-            search for FlightPlan</div>
+            Search for FlightPlan</div>
         <table class="auto-style2">
             <tr>
                 <td class="auto-style25">Flight Number<br />
@@ -72,7 +72,7 @@
                     <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
                 </td>
                 <td class="auto-style27">
-                    <asp:Button ID="Button1" runat="server" Text="Button" Width="161px" />
+                    <asp:Button ID="Button1" runat="server" Text="Search" Width="161px" />
                 </td>
             </tr>
         </table>

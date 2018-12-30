@@ -1,5 +1,33 @@
-﻿
+﻿Imports System.Data.OleDb
 Partial Class FlightPlan
     Inherits System.Web.UI.Page
+    Dim cn As New OleDbConnection("Provider=Microsoft.ace.Oledb.12.0;Data Source=" & Server.MapPath("app_data\willairwayvirtualDbv1.accdb"))
 
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Try
+            Dim cmd As New OleDbCommand("insert into flightplan(fltnum,deptair,arrair,eta,gate,actype,fuel,plan,dtime,pic,network) values( @a1,@a2,@a3,@a4,@a5,@a6,@a7,@a8,@a9,@a10,@a11)", cn)
+            cmd.Parameters.AddWithValue("@a1", TextBox1_fltnum.Text)
+            cmd.Parameters.AddWithValue("@a2", TextBox2_deptair.Text)
+            cmd.Parameters.AddWithValue("@a3", TextBox3_arrair.Text)
+            cmd.Parameters.AddWithValue("@a4", TextBox4_eta.Text)
+            cmd.Parameters.AddWithValue("@a5", TextBox5_gate.Text)
+            cmd.Parameters.AddWithValue("@a6", TextBox6_actype.Text)
+            cmd.Parameters.AddWithValue("@a7", TextBox7_fuel.Text)
+            cmd.Parameters.AddWithValue("@a8", TextBox8_Plan.Text)
+            cmd.Parameters.AddWithValue("@a9", TextBox9_dtime.Text)
+            cmd.Parameters.AddWithValue("@a10", TextBox10_pic.Text)
+            cmd.Parameters.AddWithValue("@a11", TextBox11_network.Text)
+
+            cn.Open()
+            cmd.ExecuteNonQuery()
+            cn.Close()
+            ' Label2.Text = "Plan filed"
+
+
+        Catch ex As Exception
+            cn.Close()
+            ' Label2.Text = ex.Message
+
+        End Try
+    End Sub
 End Class

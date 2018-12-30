@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="wavstratus aspx.aspx.vb" Inherits="wavstratus_aspx" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="wavstatus.aspx.vb" Inherits="wavstratus_aspx" %>
 
 <!DOCTYPE html>
 

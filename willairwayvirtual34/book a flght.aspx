@@ -14,11 +14,11 @@
             width: 100%;
         }
         .auto-style3 {
-            width: 181px;
+            width: 205px;
             font-size: x-large;
         }
         .auto-style4 {
-            width: 181px;
+            width: 205px;
             height: 26px;
             font-size: x-large;
         }
@@ -33,7 +33,7 @@
             font-size: medium;
         }
         .auto-style9 {
-            width: 181px;
+            width: 205px;
             font-size: x-large;
             height: 46px;
         }

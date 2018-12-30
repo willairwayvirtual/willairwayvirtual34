@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="ResetPassword.aspx.vb" Inherits="Reset_Password_" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="ResetPassword.aspx.vb" Inherits="ResetPassword" %>
 
 <!DOCTYPE html>
 
@@ -37,7 +37,7 @@
             <tr>
                 <td class="auto-style7">User Name</td>
                 <td class="auto-style6">
-                    <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style9" Width="433px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1_uname" runat="server" CssClass="auto-style9" Width="433px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
@@ -53,13 +53,13 @@
             <tr>
                 <td class="auto-style7">Confirm New Password</td>
                 <td class="auto-style6">
-                    <asp:TextBox ID="TextBox3" runat="server" CssClass="auto-style9" Width="433px" TextMode="Password"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3_newpword" runat="server" CssClass="auto-style9" Width="433px" TextMode="Password"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
         </table>
-        <asp:Button ID="Button1" runat="server" Text="Update Password " Width="835px" />
-        <asp:Button ID="Button2" runat="server" Text="back to the login screen" Width="838px" />
+        <asp:Button ID="Button1_update" runat="server" Text="Update Password " Width="835px" />
+        <asp:Button ID="Button2_login" runat="server" Text="Go back to the login screen" Width="838px" />
     </form>
 </body>
 </html>

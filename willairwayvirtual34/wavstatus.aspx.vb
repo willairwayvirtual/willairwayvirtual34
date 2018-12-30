@@ -14,7 +14,7 @@ Partial Class wavstratus_aspx
         Response.Redirect("search for FlightPlanpx.aspx")
     End Sub
 
-    Private Sub wavschedule_Click(sender As Object, e As EventArgs) Handles wavschedule.Click
+    Private Sub Wavschedule_Click(sender As Object, e As EventArgs) Handles wavschedule.Click
         Response.Redirect("Search wavschedule.aspx")
     End Sub
 End Class

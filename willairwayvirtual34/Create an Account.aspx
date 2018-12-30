@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Create an Accountaspx.aspx.vb" Inherits="Create_an_Accountaspx" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Create an Account.aspx.vb" Inherits="Create_an_Accountaspx" %>
 
 <!DOCTYPE html>
 
@@ -41,7 +41,7 @@
             <tr>
                 <td class="auto-style6">First Name</td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style7" Width="398px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1_fname" runat="server" CssClass="auto-style7" Width="398px"></asp:TextBox>
                 </td>
                 <td class="auto-style8">&nbsp;</td>
                 <td>&nbsp;</td>
@@ -51,7 +51,7 @@
             <tr>
                 <td class="auto-style6">Last Name</td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style7" Width="398px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2_Lname" runat="server" CssClass="auto-style7" Width="398px"></asp:TextBox>
                 </td>
                 <td class="auto-style8">&nbsp;</td>
                 <td>&nbsp;</td>
@@ -61,7 +61,7 @@
             <tr>
                 <td class="auto-style6">Username</td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="TextBox3" runat="server" CssClass="auto-style7" Width="398px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3_uname" runat="server" CssClass="auto-style7" Width="398px"></asp:TextBox>
                 </td>
                 <td class="auto-style8">&nbsp;</td>
                 <td>&nbsp;</td>
@@ -71,7 +71,7 @@
             <tr>
                 <td class="auto-style6">Email address</td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="TextBox4" runat="server" CssClass="auto-style7" Width="398px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox4_email" runat="server" CssClass="auto-style7" Width="398px"></asp:TextBox>
                 </td>
                 <td class="auto-style8">&nbsp;</td>
                 <td>&nbsp;</td>
@@ -93,7 +93,7 @@
             <tr>
                 <td class="auto-style6">Confirm Password</td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="TextBox6" runat="server" CssClass="auto-style7" Height="16px" TextMode="Password" Width="398px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox6_pword" runat="server" CssClass="auto-style7" Height="16px" TextMode="Password" Width="398px"></asp:TextBox>
                 </td>
                 <td class="auto-style8">&nbsp;</td>
                 <td>&nbsp;</td>
@@ -101,8 +101,8 @@
                 <td>&nbsp;</td>
             </tr>
         </table>
-        <asp:Button ID="Button1" runat="server" Text="sign up in to willairways Virtual" Width="766px" />
-        <asp:Button ID="Button2" runat="server" Height="26px" Text="back to the login screen" Width="762px" />
+        <asp:Button ID="Button1_create" runat="server" Text="Sign up in to willairways Virtual" Width="766px" />
+        <asp:Button ID="Button2" runat="server" Height="26px" Text="Go back to the login screen" Width="762px" />
     </form>
 </body>
 </html>

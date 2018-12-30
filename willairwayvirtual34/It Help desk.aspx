@@ -46,7 +46,7 @@
     <form id="form1" runat="server">
         <div class="auto-style1">
             Welcome to willairways VIRTUAL It Help desk<br />
-            create ticket</div>
+            Create Ticket</div>
             <table class="auto-style2">
                 <tr>
                     <td class="auto-style3">Username Email address</td>
