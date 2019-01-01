@@ -65,6 +65,8 @@
                     <br />
                     All bookings to be completed by 1900z
                     <asp:Button ID="Button2" runat="server" Text="go to book a flght" Width="158px" />
+                    <asp:Panel ID="Panel1" runat="server">
+                    </asp:Panel>
                 </td>
             </tr>
         </table>

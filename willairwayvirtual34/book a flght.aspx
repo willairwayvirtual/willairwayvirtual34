@@ -40,6 +40,10 @@
         .auto-style10 {
             height: 46px;
         }
+        .auto-style11 {
+            font-size: large;
+            margin-right: 879px;
+        }
     </style>
 </head>
 <body>
@@ -111,6 +115,7 @@
         <p>
             <asp:Button ID="Button1" runat="server" CssClass="auto-style7" Text="Confirm your booking" Width="927px" />
         </p>
+        <asp:Button ID="Button2" runat="server" CssClass="auto-style11" Text="back to wavschedule" Width="928px" />
     </form>
 </body>
 </html>
