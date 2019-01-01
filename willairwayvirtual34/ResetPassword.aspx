@@ -60,6 +60,9 @@
         </table>
         <asp:Button ID="Button1_update" runat="server" Text="Update Password " Width="835px" />
         <asp:Button ID="Button2_login" runat="server" Text="Go back to the login screen" Width="838px" />
+        <p>
+        <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
+        </p>
     </form>
 </body>
 </html>

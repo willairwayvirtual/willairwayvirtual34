@@ -9,11 +9,9 @@ Partial Class ResetPassword
     Protected Sub Button1_update_Click(sender As Object, e As EventArgs) Handles Button1_update.Click
         Try
             cn.Open()
-            
-            Dim cmd As New OleDbCommand("update tblaccessinfo set Pword='" + TextBox3_newpword.Text + "' where Uname=" + TextBox1_uname.Text, cn)
-            MsgBox(TextBox3_newpword.Text)
-            MsgBox(TextBox1_uname.Text)
-
+            Dim Query As String
+            Query = "update tblaccessinfo set pword='" & TextBox3_newpword.Text & "' where uname='" & TextBox1_uname.Text & "';"
+            Dim cmd As New OleDbCommand(Query, cn)
             cmd.ExecuteNonQuery()
             cn.Close()
             MsgBox("Password Updated")

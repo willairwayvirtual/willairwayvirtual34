@@ -53,9 +53,7 @@
                 <asp:Button ID="Register" runat="server" CssClass="auto-style6" Text="Register" Width="151px" />
                 <asp:Button ID="Download" runat="server" CssClass="auto-style6" Text="Download" />
             </p>
-            <p class="auto-style7">
-                <span style="font-family: &quot;Calibri&quot;,sans-serif; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-GB; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">&nbsp; </span>
-            </p>
+        <asp:Label ID="Label1" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
             <p class="auto-style8">
                 &nbsp;</p>
             <p class="auto-style5">
