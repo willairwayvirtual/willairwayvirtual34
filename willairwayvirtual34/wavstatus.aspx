@@ -9,17 +9,13 @@
         .auto-style1 {
             font-size: x-large;
         }
-        .auto-style2 {
-            font-size: large;
-        }
-    </style>
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style1" />
+            <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style1" LoginText="Logout" />
 &nbsp;&nbsp;&nbsp;
-            <asp:Label ID="Label1" runat="server" CssClass="auto-style2" Text="Label1"></asp:Label>
             <br />
             <br />
             <br />
