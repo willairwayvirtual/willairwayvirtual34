@@ -11,7 +11,7 @@
             font-size: x-large;
         }
         .auto-style2 {
-            width: 93%;
+            width: 101%;
             height: 80px;
         }
         .auto-style26 {
@@ -30,7 +30,7 @@
             height: 84px;
         }
         .auto-style29 {
-            text-align: left;
+            text-align: center;
             width: 141px;
             height: 61px;
         }
@@ -65,11 +65,25 @@
                     <br />
                     All bookings to be completed by 1900z
                     <asp:Button ID="Button2" runat="server" Text="go to book a flght" Width="158px" />
-                    <asp:Panel ID="Panel1" runat="server">
-                    </asp:Panel>
                 </td>
             </tr>
         </table>
+        <asp:GridView ID="GridView1" runat="server" Height="435px" Width="1037px" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
+            <Columns>
+                <asp:BoundField DataField="Dep_time" HeaderText="Dep_time" SortExpression="Dep_time" />
+                <asp:BoundField DataField="Fltnum" HeaderText="Fltnum" SortExpression="Fltnum" />
+                <asp:BoundField DataField="DepArpt" HeaderText="DepArpt" SortExpression="DepArpt" />
+                <asp:BoundField DataField="DepGate" HeaderText="DepGate" SortExpression="DepGate" />
+                <asp:BoundField DataField="ArrArpt" HeaderText="ArrArpt" SortExpression="ArrArpt" />
+                <asp:BoundField DataField="ArrGate" HeaderText="ArrGate" SortExpression="ArrGate" />
+                <asp:BoundField DataField="Arrtime" HeaderText="Arrtime" SortExpression="Arrtime" />
+                <asp:BoundField DataField="Status" HeaderText="Status" SortExpression="Status" />
+                <asp:BoundField DataField="signtime" HeaderText="signtime" SortExpression="signtime" />
+                <asp:BoundField DataField="off_duty" HeaderText="off_duty" SortExpression="off_duty" />
+                <asp:BoundField DataField="Booked" HeaderText="Booked" SortExpression="Booked" />
+            </Columns>
+        </asp:GridView>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString3 %>" ProviderName="<%$ ConnectionStrings:ConnectionString3.ProviderName %>" SelectCommand="SELECT [Dep time] AS Dep_time, [Fltnum], [DepArpt], [DepGate], [ArrArpt], [ArrGate], [Arrtime], [Status], [signtime], [off duty] AS off_duty, [Booked] FROM [wavschedule]"></asp:SqlDataSource>
     </form>
 </body>
 </html>

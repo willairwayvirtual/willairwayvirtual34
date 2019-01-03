@@ -76,6 +76,18 @@
                 </td>
             </tr>
         </table>
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="flights_Number" DataSourceID="SqlDataSource1" Height="327px" Width="1062px">
+            <Columns>
+                <asp:BoundField DataField="flights_Number" HeaderText="flights_Number" ReadOnly="True" SortExpression="flights_Number" />
+                <asp:BoundField DataField="Departure_Airport" HeaderText="Departure_Airport" SortExpression="Departure_Airport" />
+                <asp:BoundField DataField="Arrival_Airport" HeaderText="Arrival_Airport" SortExpression="Arrival_Airport" />
+                <asp:BoundField DataField="eta" HeaderText="eta" SortExpression="eta" />
+                <asp:BoundField DataField="Plan_name" HeaderText="Plan_name" SortExpression="Plan_name" />
+                <asp:BoundField DataField="Type_aircraft" HeaderText="Type_aircraft" SortExpression="Type_aircraft" />
+                <asp:BoundField DataField="Fuel" HeaderText="Fuel" SortExpression="Fuel" />
+            </Columns>
+        </asp:GridView>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString2 %>" ProviderName="<%$ ConnectionStrings:ConnectionString2.ProviderName %>" SelectCommand="SELECT [flights Number] AS flights_Number, [Departure Airport] AS Departure_Airport, [Arrival Airport] AS Arrival_Airport, [eta], [Plan_name], [Type aircraft] AS Type_aircraft, [Fuel] FROM [Search]"></asp:SqlDataSource>
     </form>
 </body>
 </html>

@@ -1,0 +1,36 @@
+Important Namespaces Used
+--------------------------
+
+Imports System.Data.OleDb
+Imports System.Data.DataSet
+Imports System.Data
+
+-------------------------
+
+Search Button Click Event Coding
+---------------------------------
+
+ Try
+
+            Dim ds As New DataSet
+            Dim con As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0; Data Source=" & Server.MapPath("~/App_Data/StudentData.accdb") & "; Persist Security Info=False")
+            Dim query As String = "SELECT * FROM PersonalInfo where srollno=" + TextBox1.Text
+            Dim cmd = New OleDbCommand(query, con)
+            Dim Da As New OleDbDataAdapter(cmd)
+            Da.Fill(ds)
+            Dim i = ds.Tables(0).Rows.Count()
+            If (i > 0) Then
+                Label3.Text = "Record Found Successfully"
+            Else
+                Label3.Text = "No Record Found"
+            End If
+            GridView1.DataSource = ds
+            GridView1.DataBind()
+            con.Close()
+
+        Catch ex As Exception
+            Label3.Text = "There is Some Problem While Saving Data" & ex.ToString()
+
+        End Try
+
+---------------------------------
