@@ -54,7 +54,7 @@
             <tr>
                 <td class="auto-style3">FltNum</td>
                 <td>
-                    <asp:TextBox ID="TextBox1" runat="server" Height="32px" Width="715px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1_fltnum" runat="server" Height="32px" Width="715px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -64,7 +64,7 @@
             <tr>
                 <td class="auto-style3">DeptAir</td>
                 <td>
-                    <asp:TextBox ID="TextBox2" runat="server" Height="29px" Width="715px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2_deptair" runat="server" Height="29px" Width="715px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -74,7 +74,7 @@
             <tr>
                 <td class="auto-style3">ArrAir</td>
                 <td>
-                    <asp:TextBox ID="TextBox3" runat="server" Height="24px" Width="715px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3_arrair" runat="server" Height="24px" Width="715px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -84,7 +84,7 @@
             <tr>
                 <td class="auto-style4">Departure time</td>
                 <td class="auto-style5">
-                    <asp:TextBox ID="TextBox4" runat="server" Height="26px" Width="715px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox4_deptime" runat="server" Height="26px" Width="715px"></asp:TextBox>
                 </td>
                 <td class="auto-style5"></td>
                 <td class="auto-style5"></td>
@@ -94,7 +94,7 @@
             <tr>
                 <td class="auto-style9">Uname</td>
                 <td class="auto-style10">
-                    <asp:TextBox ID="TextBox5" runat="server" Width="715px" CssClass="auto-style7"></asp:TextBox>
+                    <asp:TextBox ID="TextBox5_Uname" runat="server" Width="715px" CssClass="auto-style7"></asp:TextBox>
                 </td>
                 <td class="auto-style10"></td>
                 <td class="auto-style10"></td>
@@ -104,7 +104,7 @@
             <tr>
                 <td class="auto-style3">date please use short dates</td>
                 <td>
-                    <asp:TextBox ID="TextBox6" runat="server" CssClass="auto-style8" Width="715px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox6_dte" runat="server" CssClass="auto-style8" Width="715px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>

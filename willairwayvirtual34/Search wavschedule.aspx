@@ -39,6 +39,9 @@
             width: 141px;
             height: 84px;
         }
+        .auto-style31 {
+            margin-right: 209px;
+        }
     </style>
 </head>
 <body>
@@ -68,7 +71,7 @@
                 </td>
             </tr>
         </table>
-        <asp:GridView ID="GridView1" runat="server" Height="435px" Width="1037px" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
+        <asp:GridView ID="GridView1" runat="server" Height="435px" Width="1037px" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" CssClass="auto-style31">
             <Columns>
                 <asp:BoundField DataField="Dep_time" HeaderText="Dep_time" SortExpression="Dep_time" />
                 <asp:BoundField DataField="Fltnum" HeaderText="Fltnum" SortExpression="Fltnum" />

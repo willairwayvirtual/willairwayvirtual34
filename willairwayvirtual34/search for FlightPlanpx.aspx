@@ -44,6 +44,9 @@
             width: 91px;
             height: 84px;
         }
+        .auto-style28 {
+            margin-right: 72px;
+        }
     </style>
 </head>
 <body>
@@ -72,11 +75,11 @@
                     <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
                 </td>
                 <td class="auto-style27">
-                    <asp:Button ID="Button1" runat="server" Text="Search" Width="161px" />
+                    <asp:Button ID="Button1" runat="server" Text="Search" Width="127px" />
                 </td>
             </tr>
         </table>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="flights_Number" DataSourceID="SqlDataSource1" Height="327px" Width="1062px">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="flights_Number" DataSourceID="SqlDataSource1" Height="327px" Width="1062px" CssClass="auto-style28">
             <Columns>
                 <asp:BoundField DataField="flights_Number" HeaderText="flights_Number" ReadOnly="True" SortExpression="flights_Number" />
                 <asp:BoundField DataField="Departure_Airport" HeaderText="Departure_Airport" SortExpression="Departure_Airport" />

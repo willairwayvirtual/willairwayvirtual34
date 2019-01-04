@@ -51,13 +51,13 @@
                 <tr>
                     <td class="auto-style3">Username Email address</td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style6" Width="484px"></asp:TextBox>
+                        <asp:TextBox ID="Umail" runat="server" CssClass="auto-style6" Width="484px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style4">subject</td>
                     <td class="auto-style7">
-                        <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style6" Width="481px"></asp:TextBox>
+                        <asp:TextBox ID="MailSubject" runat="server" CssClass="auto-style6" Width="481px"></asp:TextBox>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
                 </tr>
@@ -67,7 +67,7 @@
                     </td>
                 </tr>
             </table>
-        <asp:TextBox ID="TextBox3" runat="server" Height="1222px" TextMode="MultiLine" Width="1297px" CssClass="auto-style10"></asp:TextBox>
+        <asp:TextBox ID="Qry" runat="server" Height="1222px" TextMode="MultiLine" Width="1297px" CssClass="auto-style10"></asp:TextBox>
     </form>
 </body>
 </html>
