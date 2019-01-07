@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="wAvHome2t.aspx.vb" Inherits="wAvHome2t" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="wAvHometaspx.aspx.vb" Inherits="wAvHometaspx" %>
 
 <!DOCTYPE html>
 
@@ -37,6 +37,8 @@
 <body>
     <form id="form1" runat="server">
         <div class="auto-style1">
+        <div class="auto-style1">
+        </div>
             <p class="auto-style4">
                 Welcome to Willairways Virtual<o:p></o:p>
             </p>
@@ -50,15 +52,13 @@
                 &nbsp;</p>
             <p class="auto-style5">
                 <asp:Button ID="Button1" runat="server" CssClass="auto-style9" Height="46px" Text="Login" Width="144px" />
-                <asp:Button ID="Button2" runat="server" CssClass="auto-style9" Height="46px" Text="Register" Width="144px" />
+                <asp:Button ID="Button2" runat="server" CssClass="auto-style9" Height="46px" Text="Register" Width="211px" />
                 <asp:Button ID="Button3" runat="server" CssClass="auto-style9" Height="46px" Text="Download" Width="220px" />
             </p>
         <asp:Label ID="Label1" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
+            </div>
+    </form>
             <p class="auto-style8">
                 &nbsp;</p>
-            <p class="auto-style5">
-                &nbsp;</p>
-        </div>
-    </form>
-</body>
+            </body>
 </html>

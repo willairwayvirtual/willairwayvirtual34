@@ -1,5 +1,5 @@
 ﻿
-Partial Class wAvHome2t
+Partial Class wAvHometaspx
     Inherits System.Web.UI.Page
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -7,6 +7,6 @@ Partial Class wAvHome2t
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Response.Redirect("Create an Accountaspx.aspx")
+        Response.Redirect("Create an Account.aspx")
     End Sub
 End Class
