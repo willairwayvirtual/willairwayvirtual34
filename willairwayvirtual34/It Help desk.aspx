@@ -68,6 +68,9 @@
                 </tr>
             </table>
         <asp:TextBox ID="Qry" runat="server" Height="1222px" TextMode="MultiLine" Width="1297px" CssClass="auto-style10">Qry</asp:TextBox>
+        <p>
+        <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
+        </p>
     </form>
 </body>
 </html>

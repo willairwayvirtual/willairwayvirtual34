@@ -87,6 +87,8 @@
             </Columns>
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString3 %>" ProviderName="<%$ ConnectionStrings:ConnectionString3.ProviderName %>" SelectCommand="SELECT [Dep time] AS Dep_time, [Fltnum], [DepArpt], [DepGate], [ArrArpt], [ArrGate], [Arrtime], [Status], [signtime], [off duty] AS off_duty, [Booked] FROM [wavschedule]"></asp:SqlDataSource>
+        <br />
+        <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
     </form>
 </body>
 </html>

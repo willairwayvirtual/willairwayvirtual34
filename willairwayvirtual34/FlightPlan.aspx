@@ -77,6 +77,9 @@
             margin-left: 0px;
             font-size: xx-large;
         }
+        .auto-style25 {
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -131,8 +134,9 @@
         <p class="auto-style22">
             <asp:TextBox ID="TextBox12_route" runat="server" CssClass="auto-style24" Height="342px" TextMode="MultiLine" Width="1613px"></asp:TextBox>
         </p>
-        <p class="auto-style22">
-            &nbsp;</p>
+        <p class="auto-style25">
+        <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
+        </p>
     </form>
 </body>
 </html>

@@ -91,6 +91,8 @@
             </Columns>
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString2 %>" ProviderName="<%$ ConnectionStrings:ConnectionString2.ProviderName %>" SelectCommand="SELECT [flights Number] AS flights_Number, [Departure Airport] AS Departure_Airport, [Arrival Airport] AS Arrival_Airport, [eta], [Plan_name], [Type aircraft] AS Type_aircraft, [Fuel] FROM [Search]"></asp:SqlDataSource>
+        <br />
+        <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
     </form>
 </body>
 </html>
