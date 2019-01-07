@@ -26,6 +26,9 @@
         .auto-style10 {
             font-size: medium;
         }
+        .auto-style11 {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -60,7 +63,7 @@
         </table>
         <asp:Button ID="Button1_update" runat="server" Text="Update Password " Width="835px" />
         <asp:Button ID="Button2_login" runat="server" Text="Go back to the login screen" Width="838px" />
-        <p>
+        <p class="auto-style11">
         <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
         </p>
     </form>

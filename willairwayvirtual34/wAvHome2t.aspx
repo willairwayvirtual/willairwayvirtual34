@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="wAvHome.aspx.vb" Inherits="willairwayvirtuat_home1page" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="wAvHome2t.aspx.vb" Inherits="wAvHome2t" %>
 
 <!DOCTYPE html>
 
@@ -18,9 +18,6 @@
             text-align: center;
             font-size: x-large;
         }
-        .auto-style6 {
-            font-size: xx-large;
-        }
         .auto-style7 {
             font-size: x-large;
         }
@@ -31,6 +28,9 @@
             margin-right: 0cm;
             margin-top: 0cm;
             margin-bottom: .0001pt;
+        }
+        .auto-style9 {
+            font-size: xx-large;
         }
     </style>
 </head>
@@ -49,16 +49,12 @@
             <p class="auto-style8">
                 &nbsp;</p>
             <p class="auto-style5">
-                <asp:Button ID="Login" runat="server" CssClass="auto-style6" Text="Login" Width="115px" />
-                <asp:Button ID="Register" runat="server" CssClass="auto-style6" Text="Register" Width="151px" />
-                <asp:Button ID="Download" runat="server" CssClass="auto-style6" Text="Download" />
+                <asp:Button ID="Button1" runat="server" CssClass="auto-style9" Height="46px" Text="Login" Width="144px" />
+                <asp:Button ID="Button2" runat="server" CssClass="auto-style9" Height="46px" Text="Register" Width="144px" />
+                <asp:Button ID="Button3" runat="server" CssClass="auto-style9" Height="46px" Text="Download" Width="220px" />
             </p>
         <asp:Label ID="Label1" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
             <p class="auto-style8">
-                &nbsp;</p>
-            <p class="auto-style5">
-                &nbsp;</p>
-            <p class="auto-style5">
                 &nbsp;</p>
             <p class="auto-style5">
                 &nbsp;</p>

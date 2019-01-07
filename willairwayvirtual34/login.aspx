@@ -44,14 +44,13 @@
             text-align: center;
             font-size: xx-large;
         }
-        .auto-style11 {
-            text-align: left;
-        }
         </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
+        <div class="auto-style10">
+            Login to your account</div>
             <table class="auto-style2">
                 <tr>
                     <td class="auto-style3">Username</td>
@@ -73,14 +72,12 @@
                 </tr>
             </table>
         </div>
-        <div class="auto-style10">
-            Login to your account</div>
         <p class="auto-style1">
             <asp:Button ID="Button1l" runat="server" BackColor="Yellow" CssClass="auto-style6" Text="Login" Width="272px" />
             <asp:Button ID="Button2" runat="server" CssClass="auto-style6" Text="Forgotten your password?" Width="298px" BorderColor="White" BackColor="#999999" />
             <asp:Button ID="Button4" runat="server" CssClass="auto-style6" Text="Need an account?" Width="298px" BorderColor="White" BackColor="#999999" />
         </p>
-    <p class="auto-style11">
+    <p class="auto-style1">
         <asp:Label ID="Label1" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
         </p>
     </form>

@@ -51,7 +51,7 @@
                 <tr>
                     <td class="auto-style3">Username Email address</td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="Umail" runat="server" CssClass="auto-style6" Width="484px"></asp:TextBox>
+                        <asp:TextBox ID="Umail11" runat="server" CssClass="auto-style6" Width="484px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -62,12 +62,12 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style9">&nbsp;<asp:Button ID="Button1" runat="server" Text="send ticket" Width="245px" />
+                    <td class="auto-style9">&nbsp;<asp:Button ID="Button1" runat="server" Text="send ticket" Width="264px" Height="34px" />
                         &nbsp;&nbsp;
                     </td>
                 </tr>
             </table>
-        <asp:TextBox ID="Qry" runat="server" Height="1222px" TextMode="MultiLine" Width="1297px" CssClass="auto-style10"></asp:TextBox>
+        <asp:TextBox ID="Qry" runat="server" Height="1222px" TextMode="MultiLine" Width="1297px" CssClass="auto-style10">Qry</asp:TextBox>
     </form>
 </body>
 </html>

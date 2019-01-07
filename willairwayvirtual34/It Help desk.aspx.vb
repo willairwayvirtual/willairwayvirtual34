@@ -1,4 +1,7 @@
-﻿Imports System.Net.Mail
+﻿Imports System.IO
+Imports System.Net
+Imports System.Net.Mail
+
 Partial Class It_Help_desk
     Inherits System.Web.UI.Page
 
@@ -6,7 +9,7 @@ Partial Class It_Help_desk
         Dim mail As New MailMessage
         mail.Subject = MailSubject.Text
         mail.To.Add("wavithelpdesk@hotmail.com")
-        mail.From = New MailAddress(Umail.Text)
+        mail.From = New MailAddress(Umail11.Text)
         mail.Body = Qry.Text
 
         Dim smtp As New SmtpClient("smtp-mail.outlook.com")
@@ -14,6 +17,6 @@ Partial Class It_Help_desk
         smtp.Credentials = New System.Net.NetworkCredential("willjones97@hotmail.com", "spongebob")
         smtp.Port = "587"
         smtp.Send(mail)
-        MsgBox("You will receive an automated response ")
+
     End Sub
 End Class
