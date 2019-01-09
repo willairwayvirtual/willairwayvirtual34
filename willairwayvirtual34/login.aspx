@@ -10,17 +10,17 @@
             text-align: center;
         }
         .auto-style2 {
-            width: 100%;
+            width: 97%;
         }
         .auto-style3 {
             text-align: right;
             width: 267px;
-            font-size: x-large;
+            font-size: xx-large;
         }
         .auto-style4 {
             width: 267px;
             height: 27px;
-            font-size: x-large;
+            font-size: xx-large;
             text-align: right;
         }
         .auto-style5 {
@@ -44,6 +44,10 @@
             text-align: center;
             font-size: xx-large;
         }
+        .auto-style11 {
+            text-align: center;
+            height: 86px;
+        }
         </style>
 </head>
 <body>
@@ -55,13 +59,13 @@
                 <tr>
                     <td class="auto-style3">Username</td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="TextBox1_uname" runat="server" CssClass="auto-style6" Width="285px"></asp:TextBox>
+                        <asp:TextBox ID="TextBox1_uname" runat="server" CssClass="auto-style8" Width="343px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style4">Password </td>
                     <td class="auto-style7">
-                        <asp:TextBox ID="TextBox2_pword" runat="server" CssClass="auto-style6" TextMode="Password" Width="286px"></asp:TextBox>
+                        <asp:TextBox ID="TextBox2_pword" runat="server" CssClass="auto-style8" TextMode="Password" Width="343px"></asp:TextBox>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
                 </tr>
@@ -72,7 +76,7 @@
                 </tr>
             </table>
         </div>
-        <p class="auto-style1">
+        <p class="auto-style11">
             <asp:Button ID="Button1l" runat="server" BackColor="Yellow" CssClass="auto-style6" Text="Login" Width="272px" />
             <asp:Button ID="Button2" runat="server" CssClass="auto-style6" Text="Forgotten your password?" Width="298px" BorderColor="White" BackColor="#999999" />
             <asp:Button ID="Button4" runat="server" CssClass="auto-style6" Text="Need an account?" Width="298px" BorderColor="White" BackColor="#999999" />
@@ -80,6 +84,8 @@
     <p class="auto-style1">
         <asp:Label ID="Label1" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
         </p>
+        <p class="auto-style1">
+            &nbsp;</p>
     </form>
     </body>
 </html>
