@@ -64,6 +64,7 @@
                 <tr>
                     <td class="auto-style9">&nbsp;<asp:Button ID="Button1" runat="server" Text="send ticket" Width="264px" Height="34px" />
                         &nbsp;&nbsp;
+                        <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style10" LoginText="Logout" />
                     </td>
                 </tr>
             </table>

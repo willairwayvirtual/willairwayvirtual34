@@ -7,7 +7,6 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            text-align: center;
             font-size: xx-large;
         }
         .auto-style10 {
@@ -52,6 +51,8 @@
 <body>
     <form id="form1" runat="server">
         <div class="auto-style1">
+            <asp:LoginStatus ID="LogoutStatus1" runat="server" LoginText="Logout" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             Search for FlightPlan</div>
         <table class="auto-style2">
             <tr>
