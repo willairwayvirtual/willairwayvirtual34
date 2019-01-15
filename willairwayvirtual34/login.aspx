@@ -43,6 +43,7 @@
         .auto-style10 {
             text-align: center;
             font-size: xx-large;
+            color: #3366CC;
         }
         .auto-style11 {
             text-align: center;
@@ -54,7 +55,7 @@
     <form id="form1" runat="server">
         <div>
         <div class="auto-style10">
-            Login to your account</div>
+            <strong>Login to your account</strong></div>
             <table class="auto-style2">
                 <tr>
                     <td class="auto-style3">Username</td>
