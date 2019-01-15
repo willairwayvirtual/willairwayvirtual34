@@ -1,5 +1,7 @@
-﻿Imports System.Data.OleDb
-Imports System.Data.DataSet
+﻿Imports System.Data.OleDb
+
+Imports System.Data.DataSet
+
 Imports System.Data
 
 Partial Class search_for_FlightPlanpx
@@ -9,23 +11,33 @@ Partial Class search_for_FlightPlanpx
 
 
 
-        Dim ds As New DataSet
-            Dim con As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0; Data Source=" & Server.MapPath("~/App_Data/willairwayvirtualDbv1.accdb") & "; Persist Security Info=False")
+        Dim ds As New DataSet
+
+        Dim con As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0; Data Source=" & Server.MapPath("~/App_Data/willairwayvirtualDbv1.accdb") & "; Persist Security Info=False")
 
         Dim query As String = "SELECT * FROM Searchwhere srollno=" + TextBox1.Text
 
-        Dim cmd = New OleDbCommand(query, con)
-            Dim Da As New OleDbDataAdapter(cmd)
-            Da.Fill(ds)
-            Dim i = ds.Tables(0).Rows.Count()
-            If (i > 0) Then
+        Dim cmd = New OleDbCommand(query, con)
+
+        Dim Da As New OleDbDataAdapter(cmd)
+
+        Da.Fill(ds)
+
+        Dim i = ds.Tables(0).Rows.Count()
+
+        If (i > 0) Then
 
 
 
-            Else
-            End If
-            GridView1.DataSource = ds
-            GridView1.DataBind()
-            con.Close()
+        Else
+
+
+        End If
+
+        GridView1.DataSource = ds
+
+        GridView1.DataBind()
+
+        con.Close()
     End Sub
 End Class
