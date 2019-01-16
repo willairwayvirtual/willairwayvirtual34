@@ -15,7 +15,7 @@
         }
         .auto-style3 {
             text-align: right;
-            width: 267px;
+            width: 238px;
             font-size: x-large;
         }
         .auto-style5 {
@@ -25,7 +25,7 @@
             font-size: x-large;
         }
         .auto-style4 {
-            width: 267px;
+            width: 238px;
             height: 63px;
             font-size: x-large;
             text-align: right;
@@ -35,10 +35,13 @@
             height: 63px;
         }
         .auto-style9 {
-            width: 267px;
+            width: 238px;
         }
         .auto-style10 {
             font-size: xx-large;
+        }
+        .auto-style11 {
+            width: 152%;
         }
     </style>
 </head>
@@ -62,16 +65,22 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style9">&nbsp;<asp:Button ID="Button1" runat="server" Text="send ticket" Width="231px" Height="34px" />
+                    <td class="auto-style9">&nbsp;<asp:Button ID="Button1" runat="server" Text="send ticket" Width="295px" Height="37px" />
                         &nbsp;&nbsp;
-                        <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style10" LoginText="Logout" />
+                        <br />
+                        <table class="auto-style11">
+                            <tr>
+                                <td>
+        <asp:Label ID="Label3" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
             </table>
         <asp:TextBox ID="Qry" runat="server" Height="1222px" TextMode="MultiLine" Width="1297px" CssClass="auto-style10">Qry</asp:TextBox>
         <p>
-        <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
-        </p>
+            &nbsp;</p>
     </form>
 </body>
 </html>
