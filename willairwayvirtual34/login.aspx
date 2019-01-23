@@ -48,6 +48,7 @@
         .auto-style11 {
             text-align: center;
             height: 86px;
+            width: 1126px;
         }
         </style>
 </head>
@@ -55,7 +56,7 @@
     <form id="form1" runat="server">
         <div>
         <div class="auto-style10">
-            <strong>Login to your account</strong></div>
+            Welcome to Willairways Virtual please enter you username and password </div>
             <table class="auto-style2">
                 <tr>
                     <td class="auto-style3">Username</td>
