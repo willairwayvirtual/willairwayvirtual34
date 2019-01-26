@@ -39,6 +39,7 @@
         }
         .auto-style10 {
             font-size: xx-large;
+            margin-top: 0px;
         }
         .auto-style11 {
             width: 152%;
