@@ -40,7 +40,7 @@
             height: 84px;
         }
         .auto-style31 {
-            margin-right: 209px;
+            margin-right: 0px;
         }
     </style>
 </head>
