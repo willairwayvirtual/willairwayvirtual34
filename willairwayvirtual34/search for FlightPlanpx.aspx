@@ -77,19 +77,17 @@
                 </td>
             </tr>
         </table>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="flights_Number" DataSourceID="SqlDataSource1" Height="444px" Width="1196px">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Height="609px" Width="1267px">
             <Columns>
-                <asp:BoundField DataField="flights_Number" HeaderText="flights_Number" ReadOnly="True" SortExpression="flights_Number" />
-                <asp:BoundField DataField="Departure_Airport" HeaderText="Departure_Airport" SortExpression="Departure_Airport" />
-                <asp:BoundField DataField="Arrival_Airport" HeaderText="Arrival_Airport" SortExpression="Arrival_Airport" />
+                <asp:BoundField DataField="FltNum" HeaderText="FltNum" SortExpression="FltNum" />
+                <asp:BoundField DataField="DeptAir" HeaderText="DeptAir" SortExpression="DeptAir" />
+                <asp:BoundField DataField="ArrAir" HeaderText="ArrAir" SortExpression="ArrAir" />
                 <asp:BoundField DataField="eta" HeaderText="eta" SortExpression="eta" />
-                <asp:BoundField DataField="Plan_name" HeaderText="Plan_name" SortExpression="Plan_name" />
-                <asp:BoundField DataField="Route" HeaderText="Route" SortExpression="Route" />
-                <asp:BoundField DataField="Fuel" HeaderText="Fuel" SortExpression="Fuel" />
-                <asp:BoundField DataField="Type_aircraft" HeaderText="Type_aircraft" SortExpression="Type_aircraft" />
+                <asp:BoundField DataField="AcType" HeaderText="AcType" SortExpression="AcType" />
+                <asp:BoundField DataField="Plan" HeaderText="Plan" SortExpression="Plan" />
             </Columns>
         </asp:GridView>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString5 %>" ProviderName="<%$ ConnectionStrings:ConnectionString5.ProviderName %>" SelectCommand="SELECT [flights Number] AS flights_Number, [Departure Airport] AS Departure_Airport, [Arrival Airport] AS Arrival_Airport, [eta], [Plan_name], [Route], [Fuel], [Type aircraft] AS Type_aircraft FROM [Search]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString6 %>" ProviderName="<%$ ConnectionStrings:ConnectionString6.ProviderName %>" SelectCommand="SELECT [FltNum], [DeptAir], [ArrAir], [eta], [AcType], [Plan] FROM [FlightPlan]"></asp:SqlDataSource>
         <br />
         <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
     </form>
