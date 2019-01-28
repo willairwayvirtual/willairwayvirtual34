@@ -15,7 +15,7 @@ Partial Class search_for_FlightPlanpx
 
         Dim con As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0; Data Source=" & Server.MapPath("~/App_Data/willairwayvirtualDbv1.accdb") & "; Persist Security Info=False")
 
-        Dim query As String = "SELECT * FROM flightplan where srollno=" + TextBox1.Text + TextBox2.Text + TextBox3.Text + TextBox3.Text + TextBox4.Text + TextBox5.Text + TextBox6.Text
+        Dim query As String = "SELECT * FROM flightplan where srollno=" + TextBox1.Text + TextBox2.Text + TextBox3.Text + TextBox3.Text + TextBox4.Text + TextBox8.Text + TextBox6.Text
         Dim cmd = New OleDbCommand(query, con)
 
         Dim Da As New OleDbDataAdapter(cmd)

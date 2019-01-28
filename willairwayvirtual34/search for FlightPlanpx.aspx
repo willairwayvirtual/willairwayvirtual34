@@ -67,7 +67,7 @@
             </tr>
             <tr>
                 <td class="auto-style24">Plan_name<br />
-                    <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
                 </td>
                 <td class="auto-style23">Type aircraft<br />
                     <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
