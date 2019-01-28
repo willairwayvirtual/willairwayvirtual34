@@ -34,6 +34,7 @@
 <body>
     <form id="form1" runat="server">
         <div class="auto-style1">
+            <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutText="Login" />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Reset Password
         </div>
         <table class="auto-style2">
