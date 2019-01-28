@@ -89,6 +89,7 @@
                 <asp:BoundField DataField="Route" HeaderText="Route" SortExpression="Route" />
             </Columns>
         </asp:GridView>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString7 %>" ProviderName="<%$ ConnectionStrings:ConnectionString7.ProviderName %>" SelectCommand="SELECT [FltNum], [DeptAir], [ArrAir], [AcType], [Plan], [eta], [Gate], [Route] FROM [FlightPlan]"></asp:SqlDataSource>
         <br />
         <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
