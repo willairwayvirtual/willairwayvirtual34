@@ -73,21 +73,23 @@
                     <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
                 </td>
                 <td class="auto-style27">
-                    <asp:Button ID="Button1" runat="server" Text="Search" Width="127px" />
+                    <asp:Button ID="Button1" runat="server" Text="Search" Width="122px" />
                 </td>
             </tr>
         </table>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Height="609px" Width="1267px">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Height="453px" Width="1173px">
             <Columns>
                 <asp:BoundField DataField="FltNum" HeaderText="FltNum" SortExpression="FltNum" />
                 <asp:BoundField DataField="DeptAir" HeaderText="DeptAir" SortExpression="DeptAir" />
                 <asp:BoundField DataField="ArrAir" HeaderText="ArrAir" SortExpression="ArrAir" />
-                <asp:BoundField DataField="eta" HeaderText="eta" SortExpression="eta" />
                 <asp:BoundField DataField="AcType" HeaderText="AcType" SortExpression="AcType" />
                 <asp:BoundField DataField="Plan" HeaderText="Plan" SortExpression="Plan" />
+                <asp:BoundField DataField="eta" HeaderText="eta" SortExpression="eta" />
+                <asp:BoundField DataField="Gate" HeaderText="Gate" SortExpression="Gate" />
+                <asp:BoundField DataField="Route" HeaderText="Route" SortExpression="Route" />
             </Columns>
         </asp:GridView>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString6 %>" ProviderName="<%$ ConnectionStrings:ConnectionString6.ProviderName %>" SelectCommand="SELECT [FltNum], [DeptAir], [ArrAir], [eta], [AcType], [Plan] FROM [FlightPlan]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString7 %>" ProviderName="<%$ ConnectionStrings:ConnectionString7.ProviderName %>" SelectCommand="SELECT [FltNum], [DeptAir], [ArrAir], [AcType], [Plan], [eta], [Gate], [Route] FROM [FlightPlan]"></asp:SqlDataSource>
         <br />
         <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
     </form>
