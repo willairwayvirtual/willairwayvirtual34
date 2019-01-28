@@ -77,7 +77,7 @@
                 </td>
             </tr>
         </table>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Height="453px" Width="1173px">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Height="22px" Width="1183px">
             <Columns>
                 <asp:BoundField DataField="FltNum" HeaderText="FltNum" SortExpression="FltNum" />
                 <asp:BoundField DataField="DeptAir" HeaderText="DeptAir" SortExpression="DeptAir" />
