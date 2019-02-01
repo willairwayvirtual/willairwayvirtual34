@@ -95,7 +95,7 @@
         </p>
         <p class="auto-style12">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button2" runat="server" CssClass="auto-style6" Text="Forgotten your password?" Width="602px" BorderColor="White" BackColor="#999999" Height="63px" />
+            <asp:Button ID="Button2" runat="server" CssClass="auto-style6" Text="Forgotten your password?" Width="595px" BorderColor="White" BackColor="#999999" Height="46px" />
         </p>
         <p class="auto-style11">
             &nbsp;&nbsp;&nbsp;&nbsp;
