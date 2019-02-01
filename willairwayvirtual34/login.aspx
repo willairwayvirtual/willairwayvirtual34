@@ -47,7 +47,18 @@
         }
         .auto-style11 {
             text-align: center;
-            height: 86px;
+            height: 42px;
+            width: 1026px;
+        }
+        .auto-style12 {
+            text-align: center;
+            height: 1px;
+            width: 1050px;
+            margin-top: 0px;
+        }
+        .auto-style13 {
+            text-align: center;
+            height: 38px;
             width: 1126px;
         }
         </style>
@@ -78,10 +89,16 @@
                 </tr>
             </table>
         </div>
-        <p class="auto-style11">
-            <asp:Button ID="Button1l" runat="server" BackColor="Yellow" CssClass="auto-style6" Text="Login" Width="272px" />
-            <asp:Button ID="Button2" runat="server" CssClass="auto-style6" Text="Forgotten your password?" Width="298px" BorderColor="White" BackColor="#999999" />
+        <p class="auto-style13">
             <asp:Button ID="Button4" runat="server" CssClass="auto-style6" Text="Need an account?" Width="298px" BorderColor="White" BackColor="#999999" />
+            <asp:Button ID="Button1l" runat="server" BackColor="Yellow" CssClass="auto-style6" Text="Login" Width="312px" />
+        </p>
+        <p class="auto-style12">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button2" runat="server" CssClass="auto-style6" Text="Forgotten your password?" Width="602px" BorderColor="White" BackColor="#999999" Height="63px" />
+        </p>
+        <p class="auto-style11">
+            &nbsp;&nbsp;&nbsp;&nbsp;
         </p>
     <p class="auto-style1">
         <asp:Label ID="Label1" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
