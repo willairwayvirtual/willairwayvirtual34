@@ -3,6 +3,7 @@
 Partial Class Login
     Inherits System.Web.UI.Page
     Dim cn As New OleDbConnection("Provider=Microsoft.ace.Oledb.12.0;Data Source=" & Server.MapPath("app_data\willairwayvirtualDbv1.accdb"))
+
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Response.Redirect("ResetPassword.aspx")
     End Sub
@@ -11,6 +12,7 @@ Partial Class Login
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1l.Click
+        Dim lastName As String
         Dim query As String
         query = "select count (*) from tblaccessinfo where uname = ? and pword = ?"
         Dim result As Integer = 0
@@ -20,8 +22,19 @@ Partial Class Login
             cn.Open()
             Session("Uname") = TextBox1_uname.Text
             result = DirectCast(cmd.ExecuteScalar(), Integer)
+            Dim dr As OleDbDataReader = cmd.ExecuteReader
+            '  If userFound = True Then
+            'FirstName = dr("FName").ToString
+            ' lastName = dr("LName").ToString
+            'Status = dr("status").ToString
+            'totalHours = dr("TotalHours").ToString
+            'lastflight = dr("lastflight").ToString
+            Response.Cookies("Details").Value = TextBox1_uname.Text
+            'End If
         End Using
         If result > 0 Then
+
+
             Response.Redirect("wavstatus.aspx")
         Else
             MsgBox("YOU DONT EXIST")

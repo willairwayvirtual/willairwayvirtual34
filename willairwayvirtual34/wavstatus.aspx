@@ -18,8 +18,8 @@
     <form id="form1" runat="server">
         <div>
             <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style1" LoginText="Logout" />
-&nbsp;&nbsp;&nbsp;
             <br />
+            <asp:Label ID="Label3" runat="server" CssClass="auto-style1" Text="Label"></asp:Label>
             <br />
             <br />
         </div>

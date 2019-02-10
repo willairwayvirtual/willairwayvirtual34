@@ -42,7 +42,7 @@
             margin-top: 0px;
         }
         .auto-style11 {
-            width: 152%;
+            width: 150%;
         }
     </style>
 </head>
