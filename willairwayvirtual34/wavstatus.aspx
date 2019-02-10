@@ -6,20 +6,25 @@
 <head runat="server">
     <title></title>
     <style type="text/css">
-        .auto-style1 {
-            font-size: x-large;
-        }
         .auto-style2 {
             margin-top: 0px;
+        }
+        .auto-style3 {
+            font-size: xx-large;
+        }
+        .newStyle1 {
+            background-color: #000000;
         }
         </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style1" LoginText="Logout" />
+            <strong class="newStyle1">
+            <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style3" LoginText="Logout" BorderColor="#3399FF" BorderStyle="Double" />
+            </strong>
             <br />
-            <asp:Label ID="Label3" runat="server" CssClass="auto-style1" Text="Label"></asp:Label>
+            <asp:Label ID="Label3" runat="server" CssClass="auto-style3" Text="Label"></asp:Label>
             <br />
             <br />
         </div>
