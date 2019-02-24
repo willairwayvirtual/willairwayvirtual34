@@ -65,7 +65,7 @@
                 <asp:Button ID="Button1" runat="server" CssClass="auto-style9" Height="46px" Text="Login" Width="144px" />
                 <asp:Button ID="Button2" runat="server" CssClass="auto-style9" Height="46px" Text="Register" Width="211px" />
                 <asp:Button ID="Button3" runat="server" CssClass="auto-style9" Height="46px" Text="Download wav Desktop App" Width="425px" />
-                <asp:Button ID="Button4" runat="server" CssClass="auto-style12" Height="44px" Text="Download update" Width="266px" />
+                <asp:Button ID="Button4" runat="server" CssClass="auto-style12" Height="48px" Text="Download update" Width="267px" />
             </p>
         <asp:Label ID="Label1" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
             </div>
