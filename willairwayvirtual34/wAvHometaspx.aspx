@@ -12,8 +12,7 @@
         .auto-style4 {
             text-align: center;
             font-size: x-large;
-            text-decoration: underline;
-        }
+            }
         .auto-style5 {
             text-align: center;
             font-size: x-large;
