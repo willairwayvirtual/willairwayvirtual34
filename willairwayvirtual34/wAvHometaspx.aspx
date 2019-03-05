@@ -62,7 +62,6 @@
                 &nbsp;</p>
             <p class="auto-style5">
                 <asp:Button ID="Button1" runat="server" CssClass="auto-style9" Height="46px" Text="Login" Width="144px" />
-                <asp:Button ID="Button2" runat="server" CssClass="auto-style9" Height="46px" Text="Register" Width="211px" />
                 <asp:Button ID="Button3" runat="server" CssClass="auto-style9" Height="46px" Text="Download wav Desktop App" Width="425px" />
                 <asp:Button ID="Button4" runat="server" CssClass="auto-style12" Height="48px" Text="Download update" Width="267px" />
             </p>
