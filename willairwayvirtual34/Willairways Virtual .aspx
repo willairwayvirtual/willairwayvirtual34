@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="wAvHometaspx.aspx.vb" Inherits="wAvHometaspx" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Willairways Virtual .aspx.vb" Inherits="Willairways_Virtual_" %>
 
 <!DOCTYPE html>
 
@@ -9,13 +9,16 @@
         .auto-style1 {
             text-align: center;
         }
+        .auto-style10 {
+            font-size: larger;
+        }
         .auto-style4 {
             text-align: center;
             font-size: x-large;
             }
-        .auto-style5 {
+        .auto-style11 {
             text-align: center;
-            font-size: x-large;
+            font-size: xx-large;
         }
         .auto-style7 {
             font-size: x-large;
@@ -28,14 +31,11 @@
             margin-top: 0cm;
             margin-bottom: .0001pt;
         }
-        .auto-style9 {
-            font-size: xx-large;
-        }
-        .auto-style10 {
-            font-size: larger;
-        }
-        .auto-style11 {
+        .auto-style5 {
             text-align: center;
+            font-size: x-large;
+        }
+        .auto-style9 {
             font-size: xx-large;
         }
         .auto-style12 {
@@ -46,8 +46,6 @@
 <body>
     <form id="form1" runat="server">
         <div class="auto-style1">
-            <p class="auto-style4">
-                &nbsp;</p>
             <p class="auto-style4">
                 Welcome to Willairways Virtual<o:p></o:p>
             </p>
@@ -66,9 +64,7 @@
                 <asp:Button ID="Button4" runat="server" CssClass="auto-style12" Height="48px" Text="Download update" Width="267px" />
             </p>
         <asp:Label ID="Label1" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
-            </div>
+        </div>
     </form>
-            <p class="auto-style8">
-                &nbsp;</p>
-            </body>
+</body>
 </html>
