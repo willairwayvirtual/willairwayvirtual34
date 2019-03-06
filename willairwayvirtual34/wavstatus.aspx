@@ -21,7 +21,9 @@
     <form id="form1" runat="server">
         <div>
             <strong class="newStyle1">
-            <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style3" LoginText="Logout" BorderColor="#3399FF" BorderStyle="Double" />
+            <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style3" LoginText="Logout" BorderColor="#3399FF" BorderStyle="Double" Height="34px" Width="142px" />
+            <br />
+            <br />
             </strong>
             <br />
             <asp:Label ID="Label3" runat="server" CssClass="auto-style3" Text="Label"></asp:Label>
