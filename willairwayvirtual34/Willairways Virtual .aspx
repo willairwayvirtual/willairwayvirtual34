@@ -13,7 +13,6 @@
             font-size: larger;
         }
         .auto-style4 {
-            text-align: center;
             font-size: x-large;
             }
         .auto-style11 {
@@ -46,6 +45,8 @@
 <body>
     <form id="form1" runat="server">
         <div class="auto-style1">
+            <p class="auto-style4">
+                &nbsp;</p>
             <p class="auto-style4">
                 Welcome to Willairways Virtual<o:p></o:p>
             </p>
