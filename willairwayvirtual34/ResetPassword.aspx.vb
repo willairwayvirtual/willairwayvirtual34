@@ -2,9 +2,7 @@
 Partial Class ResetPassword
     Inherits System.Web.UI.Page
     Dim cn As New OleDbConnection("Provider=Microsoft.ace.Oledb.12.0;Data Source=" & Server.MapPath("app_data\willairwayvirtualDbv1.accdb"))
-    Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2_login.Click
-        Response.Redirect("login.aspx")
-    End Sub
+
 
     Protected Sub Button1_update_Click(sender As Object, e As EventArgs) Handles Button1_update.Click
         Try

@@ -61,6 +61,9 @@
             height: 38px;
             width: 1126px;
         }
+        .auto-style14 {
+            font-size: x-large;
+        }
         </style>
 </head>
 <body>
@@ -95,11 +98,13 @@
         </p>
         <p class="auto-style12">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button2" runat="server" CssClass="auto-style6" Text="Forgotten your password?" Width="625px" BorderColor="White" BackColor="#999999" Height="38px" />
-        </p>
+            </p>
         <p class="auto-style11">
             &nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button5" runat="server" BackColor="Gray" BorderColor="#999999" CssClass="auto-style14" Text="Reset your password" Width="1025px" />
         </p>
+        <p class="auto-style12">
+            &nbsp;</p>
     <p class="auto-style1">
         <asp:Label ID="Label1" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
         </p>
