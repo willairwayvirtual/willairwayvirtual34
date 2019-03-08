@@ -63,6 +63,7 @@
         }
         .auto-style14 {
             font-size: x-large;
+            margin-left: 85px;
         }
         </style>
 </head>
@@ -101,7 +102,7 @@
             </p>
         <p class="auto-style11">
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button5" runat="server" BackColor="Gray" BorderColor="#999999" CssClass="auto-style14" Text="Reset your password" Width="1025px" />
+            <asp:Button ID="Button5" runat="server" BackColor="Gray" BorderColor="#999999" CssClass="auto-style14" Text="Reset your password" Width="698px" />
         </p>
         <p class="auto-style12">
             &nbsp;</p>
