@@ -24,10 +24,14 @@
             font-size: xx-large;
         }
         .auto-style10 {
-            font-size: medium;
+            font-size: xx-large;
         }
         .auto-style11 {
             text-align: center;
+        }
+        .auto-style12 {
+            font-weight: 700;
+            font-size: xx-large;
         }
     </style>
 </head>
@@ -62,7 +66,7 @@
                 <td>&nbsp;</td>
             </tr>
         </table>
-        <asp:Button ID="Button1_update" runat="server" Text="Update Password " Width="835px" />
+        <asp:Button ID="Button1_update" runat="server" Text="Update Password " Width="835px" BackColor="#FF9900" CssClass="auto-style12" Height="86px" />
         <p class="auto-style11">
         <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
         </p>
