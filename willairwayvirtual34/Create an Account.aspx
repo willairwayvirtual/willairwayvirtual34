@@ -31,7 +31,6 @@
         .auto-style9 {
             font-size: x-large;
         }
-        .auto-style10 {}
         .auto-style11 {}
     </style>
 </head>
@@ -103,8 +102,8 @@
                 <td>&nbsp;</td>
             </tr>
         </table>
-        <asp:Button ID="Button1_create" runat="server" Text="Sign up in to willairways Virtual" Width="766px" BackColor="#FF9900" CssClass="auto-style11" Height="54px" />
-        <asp:Button ID="Button2" runat="server" Height="35px" Text="Go back to the login screen" Width="762px" BackColor="#FF9900" CssClass="auto-style10" />
+        <asp:Button ID="Button1_create" runat="server" Text="Sign up in to willairways Virtual" Width="766px" BackColor="#999999" CssClass="auto-style11" Height="54px" />
+        <asp:Button ID="Button2" runat="server" Height="63px" Text="Go back to the login screen" Width="762px" BackColor="#999999" />
         <p>
         <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
         </p>
