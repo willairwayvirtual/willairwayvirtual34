@@ -50,8 +50,8 @@
         </div>
         <table class="auto-style2">
             <tr>
-                <td class="auto-style3"><span class="auto-style11">Uname</span><br class="auto-style11" />
-                    <asp:TextBox ID="TextBox1_fltnum" runat="server" CssClass="auto-style11"></asp:TextBox>
+                <td class="auto-style3"><span class="auto-style11">Uname<asp:TextBox ID="TextBox4" runat="server" CssClass="auto-style11" Width="108px"></asp:TextBox>
+                    </span><br class="auto-style11" />
                 </td>
                 <td class="auto-style6"><span class="auto-style11">lastname</span><br class="auto-style11" />
                     <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style11" Width="108px"></asp:TextBox>
