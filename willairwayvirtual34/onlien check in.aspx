@@ -15,12 +15,7 @@
         .auto-style6 {
             height: 84px;
             text-align: left;
-            width: 37px;
-        }
-        .auto-style8 {
-            text-align: left;
-            width: 178px;
-            height: 84px;
+            width: 170px;
         }
         .auto-style5 {
             height: 84px;
@@ -40,30 +35,43 @@
         .auto-style13 {
             font-size: xx-large;
         }
+        .auto-style14 {
+            text-align: left;
+            width: 193px;
+            height: 84px;
+        }
+        .auto-style15 {
+            text-decoration: underline;
+        }
+        .auto-style16 {
+            font-size: xx-large;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style13" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style13">onlien check in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="auto-style11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="auto-style16"><strong>wav</strong></span><span class="auto-style11"><span class="auto-style13"><span class="auto-style15"><strong> onlien check in</strong></span>&nbsp;&nbsp; </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>
         <div>
         </div>
         <table class="auto-style2">
             <tr>
-                <td class="auto-style3"><span class="auto-style11">Uname<asp:TextBox ID="TextBox4" runat="server" CssClass="auto-style11" Width="108px"></asp:TextBox>
-                    </span><br class="auto-style11" />
+                <td class="auto-style3"><span class="auto-style11">Uname</span><br class="auto-style11" />
+                    <asp:TextBox ID="TextBox1_fltnum" runat="server" CssClass="auto-style11" Width="108px"></asp:TextBox>
                 </td>
                 <td class="auto-style6"><span class="auto-style11">lastname</span><br class="auto-style11" />
                     <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style11" Width="108px"></asp:TextBox>
                 </td>
-                <td class="auto-style8"><span class="auto-style11">sig in time</span><br class="auto-style11" />
+                <td class="auto-style14"><span class="auto-style11">sig in time</span><br class="auto-style11" />
                     <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style11" Width="108px"></asp:TextBox>
                 </td>
                 <td class="auto-style12"><span class="auto-style11">flights Number</span><br class="auto-style11" />
                     <asp:TextBox ID="TextBox3" runat="server" CssClass="auto-style11" Width="153px"></asp:TextBox>
                 </td>
                 <td class="auto-style5">
-                    <asp:Button ID="Button1" runat="server" Height="40px" Text="reporting in for duty" Width="301px" />
+                    <asp:Button ID="Button1" runat="server" Height="40px" Text="reporting in for duty" Width="280px" />
                 </td>
             </tr>
         </table>
