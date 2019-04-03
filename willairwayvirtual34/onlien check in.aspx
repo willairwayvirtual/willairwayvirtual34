@@ -52,7 +52,7 @@
 <body>
     <form id="form1" runat="server">
         <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style13" />
-        <span class="auto-style11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="auto-style16"><strong>wav</strong></span><span class="auto-style11"><span class="auto-style13"><span class="auto-style15"><strong> onlien check in</strong></span>&nbsp;&nbsp; </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="auto-style11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</span><span class="auto-style16"><strong>wav</strong></span><span class="auto-style11"><span class="auto-style13"><span class="auto-style15"><strong> onlien check in</strong></span>&nbsp;&nbsp; </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </span>
         <div>
         </div>
@@ -71,7 +71,7 @@
                     <asp:TextBox ID="TextBox3" runat="server" CssClass="auto-style11" Width="153px"></asp:TextBox>
                 </td>
                 <td class="auto-style5">
-                    <asp:Button ID="Button1" runat="server" Height="40px" Text="reporting in for duty" Width="280px" />
+                    <asp:Button ID="Button1" runat="server" Height="70px" Text="reporting in for duty" Width="289px" />
                 </td>
             </tr>
         </table>
