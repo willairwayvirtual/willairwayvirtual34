@@ -61,8 +61,11 @@
             <p class="auto-style8">
                 &nbsp;</p>
             <p class="auto-style5">
-                <asp:Button ID="Button3" runat="server" CssClass="auto-style9" Height="46px" Text="Download now" Width="425px" BackColor="#999999" />
-                <asp:Button ID="Button1" runat="server" CssClass="auto-style9" Height="46px" Text="use onilne" Width="438px" BackColor="#FF9900" />
+                &nbsp;&nbsp;&nbsp;
+                <asp:Button ID="Button3" runat="server" CssClass="auto-style9" Height="46px" Text="Download now" Width="286px" BackColor="#999999" />
+                <asp:Button ID="Button4" runat="server" CssClass="auto-style9" Height="46px" Text="updates now" Width="316px" BackColor="#999999" />
+                <asp:Button ID="Button1" runat="server" CssClass="auto-style9" Height="46px" Text="use online" Width="438px" BackColor="#FF9900" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </p>
         <asp:Label ID="Label1" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
         </div>
