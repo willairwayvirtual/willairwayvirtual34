@@ -45,27 +45,30 @@
         .auto-style32 {
             font-size: medium;
         }
+        .auto-style33 {
+            font-size: large;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div class="auto-style1">
             <asp:LoginStatus ID="LogoutStatus1" runat="server" LoginText="Logout" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             Search wavschedule</div>
         <table class="auto-style2">
             <tr>
                 <td class="auto-style30">Flight Number<br />
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style33" Height="23px" Width="123px"></asp:TextBox>
                 </td>
                 <td class="auto-style26">Acrft typeAcrft type<br />
-                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style33" Height="23px" Width="140px"></asp:TextBox>
                 </td>
                 <td class="auto-style27">Departure Airport<br />
-                    <asp:TextBox ID="TextBox10" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox12" runat="server" CssClass="auto-style33" Height="23px" Width="140px"></asp:TextBox>
                 </td>
                 <td class="auto-style10">Arrival Airport<br />
-                    <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox13" runat="server" Height="23px" Width="140px"></asp:TextBox>
                     <br />
                 </td>
             </tr>
