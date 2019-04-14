@@ -122,6 +122,9 @@
             <asp:Button ID="Button1" runat="server" CssClass="auto-style7" Text="Confirm your booking" Width="927px" />
         </p>
         <asp:Button ID="Button2" runat="server" CssClass="auto-style11" Text="back to wavschedule" Width="928px" />
+        <p>
+        <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style13" />
+        </p>
     </form>
 </body>
 </html>

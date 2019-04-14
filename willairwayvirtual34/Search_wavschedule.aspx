@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Search wavschedule.aspx.vb" Inherits="Search_wavschedule" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Search_wavschedule.aspx.vb" Inherits="Search_wavschedule" %>
 
 <!DOCTYPE html>
 
@@ -73,24 +73,13 @@
                     <br />
                     <span class="auto-style32">All bookings to be completed by 1900z</span>
                     <asp:Button ID="Button2" runat="server" Text="go to book a flght" Width="158px" />
+                    <asp:Label ID="Label4" runat="server"></asp:Label>
                 </td>
             </tr>
         </table>
-        <asp:GridView ID="GridView1" runat="server" Height="435px" Width="1037px" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" CssClass="auto-style31">
-            <Columns>
-                <asp:BoundField DataField="Dep_time" HeaderText="Dep_time" SortExpression="Dep_time" />
-                <asp:BoundField DataField="Fltnum" HeaderText="Fltnum" SortExpression="Fltnum" />
-                <asp:BoundField DataField="DepArpt" HeaderText="DepArpt" SortExpression="DepArpt" />
-                <asp:BoundField DataField="DepGate" HeaderText="DepGate" SortExpression="DepGate" />
-                <asp:BoundField DataField="ArrArpt" HeaderText="ArrArpt" SortExpression="ArrArpt" />
-                <asp:BoundField DataField="ArrGate" HeaderText="ArrGate" SortExpression="ArrGate" />
-                <asp:BoundField DataField="Arrtime" HeaderText="Arrtime" SortExpression="Arrtime" />
-                <asp:BoundField DataField="Status" HeaderText="Status" SortExpression="Status" />
-                <asp:BoundField DataField="signtime" HeaderText="signtime" SortExpression="signtime" />
-                <asp:BoundField DataField="off_duty" HeaderText="off_duty" SortExpression="off_duty" />
-                <asp:BoundField DataField="Booked" HeaderText="Booked" SortExpression="Booked" />
-            </Columns>
+        <asp:GridView ID="GridView1" runat="server" Height="435px" Width="1037px" AutoGenerateColumns="False" CssClass="auto-style31" EmptyDataText="No Record Found">
         </asp:GridView>
+        <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString3 %>" ProviderName="<%$ ConnectionStrings:ConnectionString3.ProviderName %>" SelectCommand="SELECT [Dep time] AS Dep_time, [Fltnum], [DepArpt], [DepGate], [ArrArpt], [ArrGate], [Arrtime], [Status], [signtime], [off duty] AS off_duty, [Booked] FROM [wavschedule]"></asp:SqlDataSource>
         <br />
         <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>

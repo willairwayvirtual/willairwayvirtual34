@@ -47,8 +47,6 @@
     <form id="form1" runat="server">
         <div class="auto-style1">
             <p class="auto-style4">
-                &nbsp;</p>
-            <p class="auto-style4">
                 <span class="auto-style12"><strong>Welcome to Willairways Virtual</strong></span><o:p></o:p>
             </p>
             <p class="auto-style11">

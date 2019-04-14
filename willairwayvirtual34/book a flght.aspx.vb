@@ -14,6 +14,6 @@ Partial Class book_a_flght
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Response.Redirect("Search wavschedule.aspx")
+        Response.Redirect("Search_wavschedule.aspx")
     End Sub
 End Class
