@@ -50,6 +50,10 @@
         .auto-style13 {
             margin-bottom: 41px;
         }
+        .auto-style14 {
+            margin-bottom: 41px;
+            font-size: xx-large;
+        }
     </style>
 </head>
 <body>
@@ -123,7 +127,7 @@
         </p>
         <asp:Button ID="Button2" runat="server" CssClass="auto-style11" Text="back to wavschedule" Width="928px" />
         <p>
-        <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style13" />
+        <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style14" />
         </p>
     </form>
 </body>
