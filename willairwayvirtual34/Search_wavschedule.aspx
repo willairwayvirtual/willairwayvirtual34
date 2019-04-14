@@ -64,7 +64,9 @@
                 <td class="auto-style27">Departure Airport<br />
                     <asp:TextBox ID="TextBox10" runat="server"></asp:TextBox>
                 </td>
-                <td class="auto-style10">Arrival Airport<asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
+                <td class="auto-style10">Arrival Airport<br />
+                    <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
+                    <br />
                 </td>
             </tr>
             <tr>
