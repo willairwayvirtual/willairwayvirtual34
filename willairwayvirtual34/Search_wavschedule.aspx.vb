@@ -20,7 +20,7 @@ Partial Class Search_wavschedule
         Da.Fill(ds)
         Dim i = ds.Tables(0).Rows.Count()
         If (i > 0) Then
-            Label4.Text = "Record Found Successfully"
+
         Else
             Label4.Text = "No Record Found"
         End If

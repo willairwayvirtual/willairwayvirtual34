@@ -74,15 +74,26 @@
             </tr>
             <tr>
                 <td class="auto-style29">
-                    <asp:Button ID="Button1" runat="server" Text="Search Schedule" Width="161px" />
+                    <asp:Button ID="Button1" runat="server" Text="Search Schedule" Width="146px" />
                     <br />
                     <span class="auto-style32">All bookings to be completed by 1900z</span>
-                    <asp:Button ID="Button2" runat="server" Text="go to book a flght" Width="158px" />
+                    <asp:Button ID="Button2" runat="server" Text="go to book a flght" Width="130px" />
                     <asp:Label ID="Label4" runat="server"></asp:Label>
                 </td>
             </tr>
         </table>
-        <asp:GridView ID="GridView1" runat="server" Height="435px" Width="1037px" AutoGenerateColumns="False" CssClass="auto-style31" EmptyDataText="No Record Found">
+        <asp:GridView ID="GridView1" runat="server" Height="435px" Width="1037px" AutoGenerateColumns="False" CssClass="auto-style31" EmptyDataText="No Record Found" CellPadding="4" ForeColor="#333333" GridLines="None">
+            <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+            <EditRowStyle BackColor="#999999" />
+            <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+            <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+            <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+            <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+            <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+            <SortedAscendingCellStyle BackColor="#E9E7E2" />
+            <SortedAscendingHeaderStyle BackColor="#506C8C" />
+            <SortedDescendingCellStyle BackColor="#FFFDF8" />
+            <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
         </asp:GridView>
         <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString3 %>" ProviderName="<%$ ConnectionStrings:ConnectionString3.ProviderName %>" SelectCommand="SELECT [Dep time] AS Dep_time, [Fltnum], [DepArpt], [DepGate], [ArrArpt], [ArrGate], [Arrtime], [Status], [signtime], [off duty] AS off_duty, [Booked] FROM [wavschedule]"></asp:SqlDataSource>

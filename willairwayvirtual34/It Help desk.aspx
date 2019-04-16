@@ -44,6 +44,9 @@
         .auto-style11 {
             width: 150%;
         }
+        .auto-style12 {
+            font-size: xx-large;
+        }
     </style>
 </head>
 <body>
@@ -66,8 +69,10 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style9">&nbsp;<asp:Button ID="Button1" runat="server" Text="send ticket" Width="295px" Height="37px" />
+                    <td class="auto-style9">&nbsp;<asp:Button ID="Button1" runat="server" Text="send ticket" Width="293px" Height="40px" />
                         &nbsp;&nbsp;
+                        <br />
+            <asp:LoginStatus ID="LogoutStatus1" runat="server" LoginText="Logout" BackColor="Black" CssClass="auto-style12" />
                         <br />
                         <table class="auto-style11">
                             <tr>

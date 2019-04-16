@@ -14,11 +14,11 @@
         }
         .auto-style3 {
             text-align: right;
-            width: 267px;
+            width: 254px;
             font-size: xx-large;
         }
         .auto-style4 {
-            width: 267px;
+            width: 254px;
             height: 27px;
             font-size: xx-large;
             text-align: right;
@@ -37,7 +37,7 @@
             font-size: xx-large;
         }
         .auto-style9 {
-            width: 267px;
+            width: 254px;
             height: 40px;
         }
         .auto-style10 {
