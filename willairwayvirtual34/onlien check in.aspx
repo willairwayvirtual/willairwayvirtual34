@@ -8,13 +8,13 @@
     <style type="text/css">
 
         .auto-style3 {
-            text-align: left;
+            text-align: center;
             width: 186px;
             height: 84px;
         }
         .auto-style6 {
             height: 84px;
-            text-align: left;
+            text-align: center;
             width: 170px;
         }
         .auto-style5 {
@@ -28,7 +28,7 @@
             font-size: x-large;
         }
         .auto-style12 {
-            text-align: left;
+            text-align: center;
             width: 194px;
             height: 84px;
         }
@@ -36,7 +36,7 @@
             font-size: xx-large;
         }
         .auto-style14 {
-            text-align: left;
+            text-align: center;
             width: 193px;
             height: 84px;
         }
@@ -59,16 +59,16 @@
         <table class="auto-style2">
             <tr>
                 <td class="auto-style3"><span class="auto-style11">Uname</span><br class="auto-style11" />
-                    <asp:TextBox ID="TextBox1_fltnum" runat="server" CssClass="auto-style11" Width="108px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1_fltnum" runat="server" CssClass="auto-style11" Width="161px"></asp:TextBox>
                 </td>
                 <td class="auto-style6"><span class="auto-style11">lastname</span><br class="auto-style11" />
-                    <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style11" Width="108px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style11" Width="151px"></asp:TextBox>
                 </td>
                 <td class="auto-style14"><span class="auto-style11">sig in time</span><br class="auto-style11" />
-                    <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style11" Width="108px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style11" Width="157px"></asp:TextBox>
                 </td>
                 <td class="auto-style12"><span class="auto-style11">flights Number</span><br class="auto-style11" />
-                    <asp:TextBox ID="TextBox3" runat="server" CssClass="auto-style11" Width="153px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" runat="server" CssClass="auto-style11" Width="175px"></asp:TextBox>
                 </td>
                 <td class="auto-style5">
                     <asp:Button ID="Button1" runat="server" Height="70px" Text="reporting in for duty" Width="289px" />
