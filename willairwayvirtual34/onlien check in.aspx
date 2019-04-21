@@ -75,17 +75,8 @@
                 </td>
             </tr>
         </table>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Uname" DataSourceID="SqlDataSource1" Height="339px" Width="1123px">
-            <Columns>
-                <asp:BoundField DataField="Uname" HeaderText="Uname" ReadOnly="True" SortExpression="Uname" />
-                <asp:BoundField DataField="lastname" HeaderText="lastname" SortExpression="lastname" />
-                <asp:BoundField DataField="reportingtime" HeaderText="reportingtime" SortExpression="reportingtime" />
-                <asp:BoundField DataField="flightNumber" HeaderText="flightNumber" SortExpression="flightNumber" />
-                <asp:CheckBoxField DataField="on_duty" HeaderText="on_duty" SortExpression="on_duty" />
-                <asp:BoundField DataField="Status" HeaderText="Status" SortExpression="Status" />
-            </Columns>
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" Height="339px" Width="1123px">
         </asp:GridView>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString8 %>" ProviderName="<%$ ConnectionStrings:ConnectionString8.ProviderName %>" SelectCommand="SELECT [Uname], [lastname], [reportingtime], [flightNumber], [on_duty], [Status] FROM [repfltdeck]"></asp:SqlDataSource>
     </form>
 </body>
 </html>

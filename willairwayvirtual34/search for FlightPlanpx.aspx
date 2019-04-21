@@ -77,20 +77,9 @@
                 </td>
             </tr>
         </table>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Height="22px" Width="1183px">
-            <Columns>
-                <asp:BoundField DataField="FltNum" HeaderText="FltNum" SortExpression="FltNum" />
-                <asp:BoundField DataField="DeptAir" HeaderText="DeptAir" SortExpression="DeptAir" />
-                <asp:BoundField DataField="ArrAir" HeaderText="ArrAir" SortExpression="ArrAir" />
-                <asp:BoundField DataField="AcType" HeaderText="AcType" SortExpression="AcType" />
-                <asp:BoundField DataField="Plan" HeaderText="Plan" SortExpression="Plan" />
-                <asp:BoundField DataField="eta" HeaderText="eta" SortExpression="eta" />
-                <asp:BoundField DataField="Gate" HeaderText="Gate" SortExpression="Gate" />
-                <asp:BoundField DataField="Route" HeaderText="Route" SortExpression="Route" />
-            </Columns>
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" Height="22px" Width="1183px">
         </asp:GridView>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString7 %>" ProviderName="<%$ ConnectionStrings:ConnectionString7.ProviderName %>" SelectCommand="SELECT [FltNum], [DeptAir], [ArrAir], [AcType], [Plan], [eta], [Gate], [Route] FROM [FlightPlan]"></asp:SqlDataSource>
         <br />
         <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
     </form>
