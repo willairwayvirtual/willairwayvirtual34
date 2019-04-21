@@ -14,13 +14,13 @@ Partial Class Search_wavschedule
 
         Dim ds As New DataSet
         Dim con As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0; Data Source=" & Server.MapPath("~/App_Data/willairwayvirtualDbv1.accdb") & "; Persist Security Info=False")
-        Dim query As String = "SELECT * FROM wavschedule where fltnum=" + TextBox1.Text
+        Dim query As String = "SELECT * FROM wavschedule where [fltnum]='" & TextBox1.Text & "'"
         Dim cmd = New OleDbCommand(query, con)
         Dim Da As New OleDbDataAdapter(cmd)
         Da.Fill(ds)
         Dim i = ds.Tables(0).Rows.Count()
         If (i > 0) Then
-
+            Label4.Text = "it Works"
         Else
             Label4.Text = "No Record Found"
         End If
