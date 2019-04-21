@@ -45,6 +45,9 @@
         .auto-style33 {
             font-size: large;
         }
+        .auto-style34 {
+            margin-bottom: 3px;
+        }
     </style>
 </head>
 <body>
@@ -58,14 +61,14 @@
                 <td class="auto-style30">Flight Number<br />
                     <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style33" Height="23px" Width="123px"></asp:TextBox>
                 </td>
-                <td class="auto-style26">Acrft typeAcrft type<br />
+                <td class="auto-style26">Acrft type<br />
                     <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style33" Height="23px" Width="140px"></asp:TextBox>
                 </td>
                 <td class="auto-style27">Departure Airport<br />
-                    <asp:TextBox ID="TextBox12" runat="server" CssClass="auto-style33" Height="23px" Width="140px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" runat="server" CssClass="auto-style33" Height="23px" Width="140px"></asp:TextBox>
                 </td>
                 <td class="auto-style10">Arrival Airport<br />
-                    <asp:TextBox ID="TextBox13" runat="server" Height="23px" Width="140px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox4" runat="server" Height="23px" Width="140px"></asp:TextBox>
                     <br />
                 </td>
             </tr>
@@ -74,12 +77,14 @@
                     <asp:Button ID="Button1" runat="server" Text="Search Schedule" Width="146px" />
                     <br />
                     <span class="auto-style32">All bookings to be completed by 1900z</span>
-                    <asp:Button ID="Button2" runat="server" Text="go to book a flght" Width="130px" />
+                    <asp:Button ID="Button2" runat="server" Text="go to book a flght" Width="159px" CssClass="auto-style34" Height="30px" />
+                    <br />
+                    <br />
                     <asp:Label ID="Label4" runat="server"></asp:Label>
                 </td>
             </tr>
         </table>
-        <asp:GridView ID="GridView1" runat="server" BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" CellSpacing="2" ForeColor="Black" Height="16px" Width="754px">
+        <asp:GridView ID="GridView1" runat="server" BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" CellSpacing="2" ForeColor="Black" Height="16px" Width="1280px">
             <FooterStyle BackColor="#CCCCCC" />
             <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
             <PagerStyle BackColor="#CCCCCC" ForeColor="Black" HorizontalAlign="Left" />
