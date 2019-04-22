@@ -59,7 +59,7 @@
         <table class="auto-style2">
             <tr>
                 <td class="auto-style30">Flight Number<br />
-                    <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style33" Height="23px" Width="123px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style33" Height="23px" Width="171px"></asp:TextBox>
                 </td>
                 <td class="auto-style26">Acrft type<br />
                     <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style33" Height="23px" Width="140px"></asp:TextBox>
