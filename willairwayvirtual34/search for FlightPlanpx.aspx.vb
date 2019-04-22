@@ -1,7 +1,5 @@
 ﻿Imports System.Data.OleDb
-
 Imports System.Data.DataSet
-
 Imports System.Data
 
 Partial Class search_for_FlightPlanpx
@@ -15,7 +13,7 @@ Partial Class search_for_FlightPlanpx
 
         Dim con As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0; Data Source=" & Server.MapPath("~/App_Data/willairwayvirtualDbv1.accdb") & "; Persist Security Info=False")
 
-        Dim query As String = "SELECT * FROM flightplan where srollno=" + TextBox1.Text + TextBox2.Text + TextBox3.Text + TextBox3.Text + TextBox4.Text + TextBox8.Text + TextBox6.Text
+        Dim query As String = "SELECT * FROM flightplan where [fltnum]='" & TextBox1.Text & "'"
         Dim cmd = New OleDbCommand(query, con)
 
         Dim Da As New OleDbDataAdapter(cmd)
@@ -27,13 +25,13 @@ Partial Class search_for_FlightPlanpx
         If (i > 0) Then
 
 
-
-        Else
-
+            Label3.Text = "Record Found Successfully"
+            Else
+            Label3.Text = "No FlightPlan Found"
 
         End If
 
-        GridView1.DataSource = ds
+            GridView1.DataSource = ds
 
         GridView1.DataBind()
 

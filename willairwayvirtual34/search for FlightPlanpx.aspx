@@ -74,6 +74,9 @@
                 </td>
                 <td class="auto-style27">
                     <asp:Button ID="Button1" runat="server" Text="Search" Width="122px" />
+                    <br />
+                    <br />
+                    <asp:Label ID="Label3" runat="server" Text="[Label]"></asp:Label>
                 </td>
             </tr>
         </table>
