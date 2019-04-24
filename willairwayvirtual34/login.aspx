@@ -94,14 +94,15 @@
             </table>
         </div>
         <p class="auto-style13">
-            <asp:Button ID="Button1l" runat="server" BackColor="#FF9900" CssClass="auto-style6" Text="Login" Width="325px" Height="47px" />
-            <asp:Button ID="Button4" runat="server" CssClass="auto-style6" Text="Need an account?" Width="327px" BorderColor="White" BackColor="#666666" Height="49px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button1l" runat="server" BackColor="#FF9900" CssClass="auto-style6" Text="Login" Width="315px" Height="41px" />
+            <asp:Button ID="Button4" runat="server" CssClass="auto-style6" Text="Need an account?" Width="327px" BorderColor="White" BackColor="#666666" Height="42px" />
         </p>
         <p class="auto-style12">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </p>
         <p class="auto-style11">
-            &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button5" runat="server" BackColor="#666666" BorderColor="#999999" CssClass="auto-style14" Text="Reset your password" Width="698px" />
         </p>
         <p class="auto-style12">

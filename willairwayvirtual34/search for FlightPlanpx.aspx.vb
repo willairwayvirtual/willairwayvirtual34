@@ -25,8 +25,8 @@ Partial Class search_for_FlightPlanpx
         If (i > 0) Then
 
 
-            Label3.Text = "Record Found Successfully"
-            Else
+            Label3.Text = " FlightPlan Successfully"
+        Else
             Label3.Text = "No FlightPlan Found"
 
         End If

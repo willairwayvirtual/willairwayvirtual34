@@ -15,13 +15,16 @@
         .newStyle1 {
             background-color: #000000;
         }
+        .auto-style4 {
+            text-align: left;
+        }
         </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div class="auto-style4">
             <strong class="newStyle1">
-            <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style3" LoginText="Logout" BorderColor="#3399FF" BorderStyle="Double" Height="34px" Width="142px" />
+            <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style3" LoginText="Logout" BorderColor="#3399FF" BorderStyle="Double" Height="31px" Width="108px" />
             <br />
             <br />
             </strong>
@@ -30,11 +33,11 @@
             <br />
             <br />
         </div>
-        <asp:Button ID="FlightPlan" runat="server" Height="128px" Text="FlightPlan" Width="201px" />
-        <asp:Button ID="Button3" runat="server" Height="128px" Text="search for FlightPlan" Width="201px" />
-        <asp:Button ID="wavschedule" runat="server" Height="126px" Text="wavschedule" Width="201px" />
-        <asp:Button ID="Support" runat="server" Height="123px" Text="Support" Width="371px" CssClass="auto-style2" />
-        <asp:Button ID="Button4" runat="server" Height="120px" Text="onlien check " Width="398px" />
+        <asp:Button ID="FlightPlan" runat="server" Height="132px" Text="FlightPlan" Width="216px" />
+        <asp:Button ID="Button3" runat="server" Height="136px" Text="search for FlightPlan" Width="219px" />
+        <asp:Button ID="wavschedule" runat="server" Height="134px" Text="wavschedule" Width="246px" />
+        <asp:Button ID="Support" runat="server" Height="131px" Text="Support" Width="370px" CssClass="auto-style2" />
+        <asp:Button ID="Button4" runat="server" Height="164px" Text="onlien check " Width="432px" />
         <p>
         <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
         </p>
