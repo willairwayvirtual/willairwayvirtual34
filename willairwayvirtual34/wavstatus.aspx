@@ -33,11 +33,11 @@
             <br />
             <br />
         </div>
-        <asp:Button ID="FlightPlan" runat="server" Height="132px" Text="FlightPlan" Width="216px" />
-        <asp:Button ID="Button3" runat="server" Height="136px" Text="search for FlightPlan" Width="219px" />
-        <asp:Button ID="wavschedule" runat="server" Height="134px" Text="wavschedule" Width="246px" />
-        <asp:Button ID="Support" runat="server" Height="131px" Text="Support" Width="370px" CssClass="auto-style2" />
-        <asp:Button ID="Button4" runat="server" Height="86px" Text="onlien check " Width="409px" />
+        <asp:Button ID="FlightPlan" runat="server" Height="47px" Text="FlightPlan" Width="186px" />
+        <asp:Button ID="Button3" runat="server" Height="47px" Text="search for FlightPlan" Width="202px" />
+        <asp:Button ID="wavschedule" runat="server" Height="47px" Text="wavschedule" Width="219px" />
+        <asp:Button ID="Support" runat="server" Height="45px" Text="Support" Width="344px" CssClass="auto-style2" />
+        <asp:Button ID="Button4" runat="server" Height="42px" Text="onlien check " Width="398px" />
         <p>
         <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
         </p>

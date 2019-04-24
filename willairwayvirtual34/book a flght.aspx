@@ -43,6 +43,7 @@
         .auto-style11 {
             font-size: large;
             margin-right: 879px;
+            margin-top: 0px;
         }
         .auto-style12 {
             font-size: x-large;
@@ -123,9 +124,9 @@
             </tr>
         </table>
         <p>
-            <asp:Button ID="Button1" runat="server" CssClass="auto-style7" Text="Confirm your booking" Width="927px" />
+            <asp:Button ID="Button1" runat="server" CssClass="auto-style7" Text="Confirm your booking" Width="947px" />
+        <asp:Button ID="Button2" runat="server" CssClass="auto-style11" Text="back to wavschedule" Width="967px" Height="92px" />
         </p>
-        <asp:Button ID="Button2" runat="server" CssClass="auto-style11" Text="back to wavschedule" Width="928px" />
         <p>
         <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style14" />
         </p>
