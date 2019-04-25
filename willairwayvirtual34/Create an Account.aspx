@@ -22,16 +22,16 @@
             font-size: x-large;
             text-align: center;
         }
-        .auto-style7 {
-            font-size: large;
-        }
         .auto-style8 {
-            width: 137px;
+            width: 244px;
         }
         .auto-style9 {
             font-size: x-large;
         }
         .auto-style11 {}
+        .auto-style12 {
+            font-size: xx-large;
+        }
     </style>
 </head>
 <body>
@@ -42,7 +42,7 @@
             <tr>
                 <td class="auto-style6">First Name</td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="TextBox1_fname" runat="server" CssClass="auto-style7" Width="398px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1_fname" runat="server" CssClass="auto-style12" Width="398px" Height="54px"></asp:TextBox>
                 </td>
                 <td class="auto-style8">&nbsp;</td>
                 <td>&nbsp;</td>
@@ -52,7 +52,7 @@
             <tr>
                 <td class="auto-style6">Last Name</td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="TextBox2_Lname" runat="server" CssClass="auto-style7" Width="398px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2_Lname" runat="server" CssClass="auto-style12" Width="398px" Height="70px"></asp:TextBox>
                 </td>
                 <td class="auto-style8">&nbsp;</td>
                 <td>&nbsp;</td>
@@ -62,7 +62,7 @@
             <tr>
                 <td class="auto-style6">Username</td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="TextBox3_uname" runat="server" CssClass="auto-style7" Width="398px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3_uname" runat="server" CssClass="auto-style12" Width="398px" Height="58px"></asp:TextBox>
                 </td>
                 <td class="auto-style8">&nbsp;</td>
                 <td>&nbsp;</td>
@@ -72,7 +72,7 @@
             <tr>
                 <td class="auto-style6">Email address</td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="TextBox4_email" runat="server" CssClass="auto-style7" Width="398px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox4_email" runat="server" CssClass="auto-style9" Width="398px" Height="67px"></asp:TextBox>
                 </td>
                 <td class="auto-style8">&nbsp;</td>
                 <td>&nbsp;</td>
@@ -82,7 +82,7 @@
             <tr>
                 <td class="auto-style6">Password</td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="TextBox5" runat="server" CssClass="auto-style7" TextMode="Password" Width="398px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox5" runat="server" CssClass="auto-style12" TextMode="Password" Width="398px" Height="84px"></asp:TextBox>
                 </td>
                 <td class="auto-style8">
                     <asp:Label ID="Label1" runat="server" CssClass="auto-style9" ForeColor="Red" Text="Minimum of 4 characters"></asp:Label>
@@ -94,7 +94,7 @@
             <tr>
                 <td class="auto-style6">Confirm Password</td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="TextBox6_pword" runat="server" CssClass="auto-style7" Height="16px" TextMode="Password" Width="398px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox6_pword" runat="server" CssClass="auto-style12" Height="91px" TextMode="Password" Width="398px"></asp:TextBox>
                 </td>
                 <td class="auto-style8">&nbsp;</td>
                 <td>&nbsp;</td>

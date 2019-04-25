@@ -48,12 +48,13 @@
         .auto-style12 {
             font-size: x-large;
         }
-        .auto-style13 {
-            margin-bottom: 41px;
-        }
         .auto-style14 {
             margin-bottom: 41px;
             font-size: xx-large;
+        }
+        .auto-style15 {
+            margin-bottom: 41px;
+            font-size: x-large;
         }
     </style>
 </head>
@@ -85,7 +86,7 @@
             <tr>
                 <td class="auto-style3">ArrAir</td>
                 <td>
-                    <asp:TextBox ID="TextBox3_arrair" runat="server" Height="61px" Width="715px" CssClass="auto-style13"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3_arrair" runat="server" Height="61px" Width="715px" CssClass="auto-style15"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -105,7 +106,7 @@
             <tr>
                 <td class="auto-style9">Uname</td>
                 <td class="auto-style10">
-                    <asp:TextBox ID="TextBox5_Uname" runat="server" Width="715px" CssClass="auto-style7" Height="51px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox5_Uname" runat="server" Width="715px" CssClass="auto-style12" Height="51px"></asp:TextBox>
                 </td>
                 <td class="auto-style10"></td>
                 <td class="auto-style10"></td>
@@ -124,7 +125,7 @@
             </tr>
         </table>
         <p>
-            <asp:Button ID="Button1" runat="server" CssClass="auto-style7" Text="Confirm your booking" Width="947px" />
+            <asp:Button ID="Button1" runat="server" CssClass="auto-style7" Text="Confirm your booking" Width="967px" />
         <asp:Button ID="Button2" runat="server" CssClass="auto-style11" Text="back to wavschedule" Width="967px" Height="92px" />
         </p>
         <p>

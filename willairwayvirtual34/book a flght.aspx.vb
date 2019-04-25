@@ -13,6 +13,7 @@ Partial Class book_a_flght
         cmd.Parameters.AddWithValue("@a6", TextBox6_dte.Text)
     End Sub
 
+
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Response.Redirect("Search_wavschedule.aspx")
     End Sub
