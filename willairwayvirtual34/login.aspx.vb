@@ -35,7 +35,7 @@ Partial Class Login
 
             Response.Redirect("wavstatus.aspx")
         Else
-            MsgBox("YOU DONT EXIST")
+            Label2.Text = "YOU DONT EXIST"
         End If
     End Sub
 
@@ -45,5 +45,8 @@ Partial Class Login
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         Response.Redirect("ResetPassword.aspx")
+    End Sub
+    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+
     End Sub
 End Class

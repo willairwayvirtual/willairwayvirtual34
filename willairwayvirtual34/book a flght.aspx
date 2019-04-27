@@ -9,128 +9,89 @@
         .auto-style1 {
             text-align: center;
             font-size: xx-large;
+            font-family: Calibri;
+            font-weight: bold;
         }
-        .auto-style2 {
-            width: 100%;
+        .auto-style18 {
+            width: 21%;
+            height: 138px;
         }
-        .auto-style3 {
-            width: 205px;
-            font-size: x-large;
+        .auto-style22 {
+            width: 113px;
+            height: 23px;
+            font-family: Calibri;
         }
-        .auto-style4 {
-            width: 205px;
-            height: 26px;
-            font-size: x-large;
+        .auto-style23 {
+            height: 23px;
         }
-        .auto-style5 {
-            height: 26px;
+        .auto-style24 {
+            height: 377px;
         }
-        .auto-style7 {
-            font-size: large;
-        }
-        .auto-style8 {
-            margin-top: 7px;
-            font-size: x-large;
-        }
-        .auto-style9 {
-            width: 205px;
-            font-size: x-large;
-            height: 46px;
-        }
-        .auto-style10 {
-            height: 46px;
-        }
-        .auto-style11 {
-            font-size: large;
-            margin-right: 879px;
-            margin-top: 0px;
-        }
-        .auto-style12 {
-            font-size: x-large;
-        }
-        .auto-style14 {
-            margin-bottom: 41px;
-            font-size: xx-large;
-        }
-        .auto-style15 {
-            margin-bottom: 41px;
-            font-size: x-large;
+        .auto-style25 {
+            font-family: Calibri;
         }
     </style>
 </head>
-<body>
-    <form id="form1" runat="server">
+<body style="height: 373px">
+    <form id="form1" runat="server" class="auto-style24">
         <div class="auto-style1">
-            Confirm your booking</div>
-        <table class="auto-style2">
+            Book Your Flight</div>
+        <table align="left" class="auto-style18">
             <tr>
-                <td class="auto-style3">FltNum</td>
-                <td>
-                    <asp:TextBox ID="TextBox1_fltnum" runat="server" Height="71px" Width="715px" CssClass="auto-style12"></asp:TextBox>
+                <td class="auto-style22">Flight Number</td>
+                <td class="auto-style23">
+                    <asp:TextBox ID="TextBox1_fltnum" runat="server" CssClass="auto-style25"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">DeptAir</td>
-                <td>
-                    <asp:TextBox ID="TextBox2_deptair" runat="server" Height="67px" Width="715px" CssClass="auto-style12"></asp:TextBox>
+                <td class="auto-style22">Dep Airport</td>
+                <td class="auto-style23">
+                    <asp:TextBox ID="TextBox2_deptair" runat="server" CssClass="auto-style25"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">ArrAir</td>
-                <td>
-                    <asp:TextBox ID="TextBox3_arrair" runat="server" Height="61px" Width="715px" CssClass="auto-style15"></asp:TextBox>
+                <td class="auto-style22">Arrival Airport</td>
+                <td class="auto-style23">
+                    <asp:TextBox ID="TextBox3_arrair" runat="server" CssClass="auto-style25"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style4">Departure time</td>
-                <td class="auto-style5">
-                    <asp:TextBox ID="TextBox4_deptime" runat="server" Height="47px" Width="715px" CssClass="auto-style12"></asp:TextBox>
+                <td class="auto-style22">Dep Time</td>
+                <td class="auto-style23">
+                    <asp:TextBox ID="TextBox4_deptime" runat="server" CssClass="auto-style25"></asp:TextBox>
                 </td>
-                <td class="auto-style5"></td>
-                <td class="auto-style5"></td>
-                <td class="auto-style5"></td>
-                <td class="auto-style5"></td>
             </tr>
             <tr>
-                <td class="auto-style9">Uname</td>
-                <td class="auto-style10">
-                    <asp:TextBox ID="TextBox5_Uname" runat="server" Width="715px" CssClass="auto-style12" Height="51px"></asp:TextBox>
+                <td class="auto-style22">Dep Date</td>
+                <td class="auto-style23">
+                    <asp:TextBox ID="TextBox6_dte" runat="server" CssClass="auto-style25"></asp:TextBox>
                 </td>
-                <td class="auto-style10"></td>
-                <td class="auto-style10"></td>
-                <td class="auto-style10"></td>
-                <td class="auto-style10"></td>
             </tr>
             <tr>
-                <td class="auto-style3">date please use short dates</td>
-                <td>
-                    <asp:TextBox ID="TextBox6_dte" runat="server" CssClass="auto-style8" Width="715px" Height="50px"></asp:TextBox>
+                <td class="auto-style22">Pilot Username</td>
+                <td class="auto-style23">
+                    <asp:TextBox ID="TextBox5_uname" runat="server" CssClass="auto-style25"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
             </tr>
         </table>
         <p>
-            <asp:Button ID="Button1" runat="server" CssClass="auto-style7" Text="Confirm your booking" Width="967px" />
-        <asp:Button ID="Button2" runat="server" CssClass="auto-style11" Text="back to wavschedule" Width="967px" Height="92px" />
-        </p>
+            &nbsp;</p>
         <p>
-        <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style14" />
-        </p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <br />
+        <br />
+        <asp:Button ID="Button1_book" runat="server" Text="Book Flight" Width="145px" />
+        <br />
+        <br />
+        <br />
+        <asp:Button ID="Button2" runat="server" Text="Return to Schedule" Width="145px" />
+        <br />
+        <br />
+        <asp:Label ID="Label1" runat="server" Text="Booking Status"></asp:Label>
     </form>
 </body>
 </html>
