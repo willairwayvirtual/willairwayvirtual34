@@ -74,7 +74,7 @@
                     <asp:Button ID="Button1" runat="server" Height="70px" Text="reporting in for duty" Width="289px" />
                     <br />
                     <br />
-                    <asp:Label ID="Label1" runat="server" Text="[Label]"></asp:Label>
+                    <asp:Label ID="Label1" runat="server" Text="&nbsp;wav onlien check in&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"></asp:Label>
                     <br />
                 </td>
             </tr>
