@@ -21,12 +21,14 @@ Partial Class FlightPlan
             cn.Open()
             cmd.ExecuteNonQuery()
             cn.Close()
-            ' Label2.Text = "Plan filed"
+            Label3.Text = ("Plan filed")
+
+
 
 
         Catch ex As Exception
             cn.Close()
-            ' Label2.Text = ex.Message
+            Label3.Text = ex.Message
 
         End Try
     End Sub

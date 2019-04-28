@@ -21,6 +21,6 @@ Partial Class It_Help_desk
         smtp.Port = "587"
         'smtp.Port = "25"
         smtp.Send(mail)
-        MsgBox("Thank you for your enquir")
+        Label4.Text = ("Thank you for your enquiry")
     End Sub
 End Class

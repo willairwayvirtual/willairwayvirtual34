@@ -127,6 +127,7 @@
                 </td>
                 <td class="auto-style18">
                     <asp:Button ID="Button1" runat="server" Text="SEND  FlightPlan  to Network Control" Width="225px" />
+                    <asp:Label ID="Label3" runat="server" CssClass="auto-style1" Text="Label"></asp:Label>
                 </td>
             </tr>
         </table>
