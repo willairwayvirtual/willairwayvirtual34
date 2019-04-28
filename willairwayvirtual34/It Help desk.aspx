@@ -71,7 +71,7 @@
                 <tr>
                     <td class="auto-style9">&nbsp;<asp:Button ID="Button1" runat="server" Text="send ticket" Width="293px" Height="40px" />
                         &nbsp;&nbsp;
-                        <asp:Label ID="Label4" runat="server" CssClass="auto-style6" Text="Label"></asp:Label>
+                        <asp:Label ID="Label4" runat="server" CssClass="auto-style6" Text="send ticket"></asp:Label>
                         <br />
             <asp:LoginStatus ID="LogoutStatus1" runat="server" LoginText="Logout" BackColor="Black" CssClass="auto-style12" />
                         <br />

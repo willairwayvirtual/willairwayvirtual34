@@ -79,6 +79,9 @@
         .auto-style25 {
             text-align: left;
         }
+        .auto-style26 {
+            font-size: medium;
+        }
     </style>
 </head>
 <body>
@@ -126,8 +129,8 @@
                     <asp:TextBox ID="TextBox11_network" runat="server"></asp:TextBox>
                 </td>
                 <td class="auto-style18">
-                    <asp:Button ID="Button1" runat="server" Text="SEND  FlightPlan  to Network Control" Width="225px" />
-                    <asp:Label ID="Label3" runat="server" CssClass="auto-style1" Text="Label"></asp:Label>
+                    <asp:Button ID="Button1" runat="server" Text="SEND  FlightPlan  to Network Control" Width="257px" />
+                    <asp:Label ID="Label3" runat="server" CssClass="auto-style26" Text="SEND FlightPlan"></asp:Label>
                 </td>
             </tr>
         </table>

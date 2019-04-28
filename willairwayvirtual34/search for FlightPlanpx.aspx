@@ -76,7 +76,7 @@
                     <asp:Button ID="Button1" runat="server" Text="Search" Width="122px" />
                     <br />
                     <br />
-                    <asp:Label ID="Label3" runat="server" Text="[Label]"></asp:Label>
+                    <asp:Label ID="Label3" runat="server" Text=" Search for FlightPlan"></asp:Label>
                 </td>
             </tr>
         </table>

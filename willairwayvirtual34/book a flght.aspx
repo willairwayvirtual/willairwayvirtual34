@@ -30,6 +30,9 @@
         .auto-style25 {
             font-family: Calibri;
         }
+        .auto-style26 {
+            font-size: x-large;
+        }
     </style>
 </head>
 <body style="height: 373px">
@@ -92,6 +95,9 @@
         <br />
         <br />
         <asp:Label ID="Label1" runat="server" Text="Booking Status"></asp:Label>
+        <p>
+            <asp:LoginStatus ID="LogoutStatus1" runat="server" LoginText="Logout" CssClass="auto-style26" />
+        </p>
     </form>
 </body>
 </html>

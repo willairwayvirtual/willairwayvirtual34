@@ -80,7 +80,7 @@
                     <asp:Button ID="Button2" runat="server" Text="go to book a flght" Width="159px" CssClass="auto-style34" Height="30px" />
                     <br />
                     <br />
-                    <asp:Label ID="Label4" runat="server"></asp:Label>
+                    <asp:Label ID="Label4" runat="server">Search wavschedule</asp:Label>
                 </td>
             </tr>
         </table>
