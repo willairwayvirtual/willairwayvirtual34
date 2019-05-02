@@ -60,8 +60,7 @@
                 &nbsp;</p>
             <p class="auto-style5">
                 &nbsp;&nbsp;&nbsp;
-                <asp:Button ID="Button3" runat="server" CssClass="auto-style9" Height="46px" Text="Download now" Width="272px" BackColor="#999999" />
-                <asp:Button ID="Button4" runat="server" CssClass="auto-style9" Height="46px" Text="updates now" Width="316px" BackColor="#999999" />
+                <asp:Button ID="Button3" runat="server" CssClass="auto-style9" Height="46px" Text="Download &amp; updates" Width="355px" BackColor="#999999" />
                 <asp:Button ID="Button1" runat="server" CssClass="auto-style9" Height="46px" Text="use online" Width="438px" BackColor="#FF9900" />
             &nbsp;&nbsp;
             </p>
