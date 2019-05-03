@@ -15,7 +15,7 @@
         }
         .auto-style3 {
             text-align: right;
-            width: 238px;
+            width: 236px;
             font-size: x-large;
         }
         .auto-style5 {
@@ -25,7 +25,7 @@
             font-size: x-large;
         }
         .auto-style4 {
-            width: 238px;
+            width: 236px;
             height: 63px;
             font-size: x-large;
             text-align: right;
@@ -35,7 +35,7 @@
             height: 63px;
         }
         .auto-style9 {
-            width: 238px;
+            width: 236px;
         }
         .auto-style10 {
             font-size: xx-large;
