@@ -85,7 +85,7 @@
             &nbsp;</p>
         <br />
         <br />
-        <asp:Button ID="Button1_book" runat="server" Text="cancelled fight " Width="145px" />
+        <asp:Button ID="Button1_book" runat="server" Text="cancelled fight " Width="144px" Height="27px" />
         <br />
         <br />
         <asp:Label ID="Label11" runat="server" Text="cancelled fight "></asp:Label>
