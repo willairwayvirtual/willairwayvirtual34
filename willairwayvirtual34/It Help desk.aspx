@@ -66,11 +66,13 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style9">&nbsp;<asp:Button ID="Button1" runat="server" Text="send ticket" Width="293px" Height="40px" />
-                        &nbsp;&nbsp;
+                    <td class="auto-style9">&nbsp;<asp:Button ID="Button12" runat="server" Height="25px" Text="back " Width="282px" />
+                        <asp:Button ID="Button1" runat="server" Text="send ticket" Width="277px" Height="40px" />
+                        &nbsp;<br />
+                        &nbsp;
                         <asp:Label ID="Label4" runat="server" CssClass="auto-style6" Text="send ticket"></asp:Label>
                         <br />
-                        <asp:Button ID="Button12" runat="server" Height="25px" Text="back " Width="94px" />
+                        <br />
                         <br />
                         <table class="auto-style11">
                             <tr>
