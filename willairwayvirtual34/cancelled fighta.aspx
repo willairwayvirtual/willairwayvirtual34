@@ -28,13 +28,11 @@
         .auto-style25 {
             font-family: Calibri;
         }
-        .auto-style26 {
-            font-size: x-large;
-        }
-    </style>
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
+        <asp:Button ID="Button12" runat="server" Height="25px" Text="back " Width="94px" />
         <div>
         </div>
         <div class="auto-style1">
@@ -93,7 +91,6 @@
         <asp:Label ID="Label11" runat="server" Text="cancelled fight "></asp:Label>
         <br />
         <br />
-            <asp:LoginStatus ID="LogoutStatus1" runat="server" LoginText="Logout" CssClass="auto-style26" />
         <br />
         <br />
         <br />

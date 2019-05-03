@@ -32,4 +32,8 @@ Partial Class FlightPlan
 
         End Try
     End Sub
+
+    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        Response.Redirect("wavstatus.aspx")
+    End Sub
 End Class

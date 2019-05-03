@@ -44,10 +44,7 @@
         .auto-style11 {
             width: 150%;
         }
-        .auto-style12 {
-            font-size: xx-large;
-        }
-    </style>
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -73,7 +70,7 @@
                         &nbsp;&nbsp;
                         <asp:Label ID="Label4" runat="server" CssClass="auto-style6" Text="send ticket"></asp:Label>
                         <br />
-            <asp:LoginStatus ID="LogoutStatus1" runat="server" LoginText="Logout" BackColor="Black" CssClass="auto-style12" />
+                        <asp:Button ID="Button12" runat="server" Height="25px" Text="back " Width="94px" />
                         <br />
                         <table class="auto-style11">
                             <tr>

@@ -23,4 +23,8 @@ Partial Class It_Help_desk
         smtp.Send(mail)
         Label4.Text = ("Thank you for your enquiry")
     End Sub
+
+    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        Response.Redirect("wavstatus.aspx")
+    End Sub
 End Class

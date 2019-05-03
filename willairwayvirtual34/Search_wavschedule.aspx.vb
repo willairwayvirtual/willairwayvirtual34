@@ -29,4 +29,8 @@ Partial Class Search_wavschedule
         GridView1.DataBind()
         con.Close()
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Response.Redirect("wavstatus.aspx")
+    End Sub
 End Class
