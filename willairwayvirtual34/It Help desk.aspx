@@ -26,13 +26,13 @@
         }
         .auto-style4 {
             width: 236px;
-            height: 63px;
+            height: 74px;
             font-size: x-large;
             text-align: right;
         }
         .auto-style7 {
             width: 527px;
-            height: 63px;
+            height: 74px;
         }
         .auto-style9 {
             width: 236px;
@@ -66,14 +66,11 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style9">&nbsp;<asp:Button ID="Button12" runat="server" Height="25px" Text="back " Width="282px" />
-                        <asp:Button ID="Button1" runat="server" Text="send ticket" Width="277px" Height="40px" />
+                    <td class="auto-style9">&nbsp;<asp:Button ID="Button12" runat="server" Height="25px" Text="back " Width="269px" />
+                        <asp:Button ID="Button1" runat="server" Text="send ticket" Width="266px" Height="40px" />
                         &nbsp;<br />
                         &nbsp;
                         <asp:Label ID="Label4" runat="server" CssClass="auto-style6" Text="send ticket"></asp:Label>
-                        <br />
-                        <br />
-                        <br />
                         <table class="auto-style11">
                             <tr>
                                 <td>
