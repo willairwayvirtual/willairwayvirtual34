@@ -49,4 +49,8 @@ Partial Class Login
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 
     End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        Response.Redirect("Willairways Virtual .aspx")
+    End Sub
 End Class
