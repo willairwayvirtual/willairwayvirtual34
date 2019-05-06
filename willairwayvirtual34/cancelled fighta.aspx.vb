@@ -5,7 +5,7 @@ Partial Class cancelled_fightaspx
 
     Private Sub Button1_book_Click(sender As Object, e As EventArgs) Handles Button1_book.Click
         Try
-            Dim cmd As New OleDbCommand("insert into cancelled fight(FltNum,Deptair,Arrair,deptime,Uname,Dte) values( @a1,@a2,@a3,@a4,@a5,@a6)", cn)
+            Dim cmd As New OleDbCommand("insert into canxflight(FltNum,Deptair,Arrair,deptime,Uname,Dte) values( @a1,@a2,@a3,@a4,@a5,@a6)", cn)
             cmd.Parameters.AddWithValue("@a1", TextBox1_fltnum.Text)
             cmd.Parameters.AddWithValue("@a2", TextBox2_deptair.Text)
             cmd.Parameters.AddWithValue("@a3", TextBox3_arrair.Text)
@@ -15,7 +15,7 @@ Partial Class cancelled_fightaspx
             cn.Open()
             cmd.ExecuteNonQuery()
             cn.Close()
-            Label11.Text = ("cancelled fight")
+            Label11.Text = ("Flight Cancelled")
 
         Catch ex As Exception
             cn.Close()
