@@ -63,6 +63,7 @@
                 <asp:Button ID="Button3" runat="server" CssClass="auto-style9" Height="46px" Text="Download &amp; updates" Width="355px" BackColor="#999999" />
                 <asp:Button ID="Button1" runat="server" CssClass="auto-style9" Height="46px" Text="use online" Width="438px" BackColor="#FF9900" />
             &nbsp;&nbsp;
+                <asp:Button ID="Button4" runat="server" CssClass="auto-style9" Height="46px" Text="Standard Operational Procedures" Width="504px" BackColor="#999999" />
             </p>
             <p class="auto-style5">
                 To process updates please deinstall and install the latest version</p>

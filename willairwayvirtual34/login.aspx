@@ -113,7 +113,7 @@
         <p class="auto-style12">
             &nbsp;</p>
     <p class="auto-style1">
-        <asp:Label ID="Label1" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
+        <asp:Label ID="Label1" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved." CssClass="auto-style6"></asp:Label>
         </p>
         <p class="auto-style1">
             &nbsp;</p>

@@ -51,8 +51,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style13" />
-        <span class="auto-style11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</span><span class="auto-style16"><strong>wav</strong></span><span class="auto-style11"><span class="auto-style13"><span class="auto-style15"><strong> onlien check in</strong></span>&nbsp;&nbsp; </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="auto-style11">&nbsp;&nbsp;&nbsp;<asp:Button ID="Button13" runat="server" BackColor="#999999" BorderColor="#999999" CssClass="auto-style13" Height="42px" Text="back " Width="132px" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</span><span class="auto-style16"><strong>wav</strong></span><span class="auto-style11"><span class="auto-style13"><span class="auto-style15"><strong> onlien check in</strong></span>&nbsp;&nbsp; </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </span>
         <div>
         </div>

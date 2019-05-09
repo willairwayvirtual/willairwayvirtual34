@@ -24,5 +24,9 @@ Partial Class onlien_check_in
     Protected Sub TextBox1_fltnum_TextChanged(sender As Object, e As EventArgs) Handles TextBox1_fltnum.TextChanged
 
     End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        Response.Redirect("wavstatus.aspx")
+    End Sub
 End Class
 
