@@ -40,9 +40,14 @@
         .auto-style10 {
             font-size: xx-large;
             margin-top: 0px;
+            background-color: #999999;
         }
         .auto-style11 {
             width: 150%;
+        }
+        .auto-style12 {
+            font-size: x-large;
+            background-color: #999999;
         }
         </style>
 </head>
@@ -55,13 +60,13 @@
                 <tr>
                     <td class="auto-style3">Username Email address</td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="Umail11" runat="server" CssClass="auto-style6" Width="484px"></asp:TextBox>
+                        <asp:TextBox ID="Umail11" runat="server" CssClass="auto-style12" Width="484px" ForeColor="White"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style4">subject</td>
                     <td class="auto-style7">
-                        <asp:TextBox ID="MailSubject" runat="server" CssClass="auto-style6" Width="481px"></asp:TextBox>
+                        <asp:TextBox ID="MailSubject" runat="server" CssClass="auto-style12" Width="481px" ForeColor="White"></asp:TextBox>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
                 </tr>
@@ -81,7 +86,7 @@
                     </td>
                 </tr>
             </table>
-        <asp:TextBox ID="Qry" runat="server" Height="1222px" TextMode="MultiLine" Width="1297px" CssClass="auto-style10">Qry</asp:TextBox>
+        <asp:TextBox ID="Qry" runat="server" Height="1222px" TextMode="MultiLine" Width="1297px" CssClass="auto-style10" ForeColor="White">Qry</asp:TextBox>
         <p>
             &nbsp;</p>
     </form>

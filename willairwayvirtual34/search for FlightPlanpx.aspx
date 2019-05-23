@@ -43,8 +43,8 @@
             width: 91px;
             height: 84px;
         }
-        .auto-style28 {
-            background-color: #000000;
+        .auto-style29 {
+            background-color: #999999;
         }
         </style>
 </head>
@@ -57,23 +57,23 @@
         <table class="auto-style2">
             <tr>
                 <td class="auto-style25">Flight Number<br />
-                    <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style28" ForeColor="White"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style29" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style26">Departure Airport<br />
-                    <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style28" ForeColor="White"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style29" ForeColor="White"></asp:TextBox>
                 </td>
-                <td class="auto-style27">Arrival Airport<asp:TextBox ID="TextBox3" runat="server" CssClass="auto-style28" ForeColor="White"></asp:TextBox>
+                <td class="auto-style27">Arrival Airport<asp:TextBox ID="TextBox3" runat="server" CssClass="auto-style29" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style10">ETA<br />
-                    <asp:TextBox ID="TextBox4" runat="server" CssClass="auto-style28" ForeColor="White"></asp:TextBox>
+                    <asp:TextBox ID="TextBox4" runat="server" CssClass="auto-style29" ForeColor="White"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style24">Plan_name<br />
-                    <asp:TextBox ID="TextBox8" runat="server" CssClass="auto-style28" ForeColor="White"></asp:TextBox>
+                    <asp:TextBox ID="TextBox8" runat="server" CssClass="auto-style29" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style23">Type aircraft<br />
-                    <asp:TextBox ID="TextBox6" runat="server" CssClass="auto-style28" ForeColor="White"></asp:TextBox>
+                    <asp:TextBox ID="TextBox6" runat="server" CssClass="auto-style29" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style27">
                     <asp:Button ID="Button1" runat="server" Text="Search" Width="122px" />

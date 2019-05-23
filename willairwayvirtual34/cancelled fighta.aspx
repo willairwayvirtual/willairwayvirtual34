@@ -25,56 +25,56 @@
         .auto-style23 {
             height: 23px;
         }
-        .auto-style25 {
+        .auto-style28 {
             font-family: Calibri;
+            background-color: #999999;
         }
         </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:Button ID="Button12" runat="server" Height="25px" Text="back " Width="94px" />
-        <div>
-        </div>
-        <div class="auto-style1">
-            cancelled fight </div>
         <table align="left" class="auto-style18">
             <tr>
                 <td class="auto-style22">Flight Number</td>
                 <td class="auto-style23">
-                    <asp:TextBox ID="TextBox1_fltnum" runat="server" CssClass="auto-style25"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1_fltnum" runat="server" CssClass="auto-style28" ForeColor="White"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style22">Dep Airport</td>
                 <td class="auto-style23">
-                    <asp:TextBox ID="TextBox2_deptair" runat="server" CssClass="auto-style25"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2_deptair" runat="server" CssClass="auto-style28" ForeColor="White"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style22">Arrival Airport</td>
                 <td class="auto-style23">
-                    <asp:TextBox ID="TextBox3_arrair" runat="server" CssClass="auto-style25"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3_arrair" runat="server" CssClass="auto-style28" ForeColor="White"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style22">Dep Time</td>
                 <td class="auto-style23">
-                    <asp:TextBox ID="TextBox4_deptime" runat="server" CssClass="auto-style25"></asp:TextBox>
+                    <asp:TextBox ID="TextBox4_deptime" runat="server" CssClass="auto-style28" ForeColor="White"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style22">Dep Date</td>
                 <td class="auto-style23">
-                    <asp:TextBox ID="TextBox6_dte" runat="server" CssClass="auto-style25"></asp:TextBox>
+                    <asp:TextBox ID="TextBox6_dte" runat="server" CssClass="auto-style28" ForeColor="White"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style22">Pilot Username</td>
                 <td class="auto-style23">
-                    <asp:TextBox ID="TextBox5_uname" runat="server" CssClass="auto-style25"></asp:TextBox>
+                    <asp:TextBox ID="TextBox5_uname" runat="server" CssClass="auto-style28" ForeColor="White"></asp:TextBox>
                 </td>
             </tr>
         </table>
+        <div>
+        </div>
+        <div class="auto-style1">
+            cancelled fight </div>
         <p>
             &nbsp;</p>
         <p>
@@ -83,6 +83,7 @@
             &nbsp;</p>
         <p>
             &nbsp;</p>
+        <asp:Button ID="Button12" runat="server" Height="25px" Text="back " Width="94px" />
         <br />
         <br />
         <asp:Button ID="Button1_book" runat="server" Text="Cancel Flight " Width="144px" Height="27px" />

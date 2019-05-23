@@ -30,9 +30,9 @@
             font-weight: 700;
             font-size: xx-large;
         }
-        .auto-style13 {
+        .auto-style14 {
             font-size: xx-large;
-            background-color: #000000;
+            background-color: #999999;
         }
     </style>
 </head>
@@ -46,14 +46,14 @@
             <tr>
                 <td class="auto-style7">User Name</td>
                 <td class="auto-style6">
-                    <asp:TextBox ID="TextBox1_uname" runat="server" CssClass="auto-style13" Width="433px" ForeColor="White"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1_uname" runat="server" CssClass="auto-style14" Width="433px" ForeColor="White"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style7">New Password </td>
                 <td class="auto-style6">
-                    <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style13" Width="433px" TextMode="Password" ForeColor="White"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style14" Width="433px" TextMode="Password" ForeColor="White"></asp:TextBox>
                 </td>
                 <td>
                     <asp:Label ID="Label1" runat="server" CssClass="auto-style10" ForeColor="Red" Text="Minimum of 4 characters"></asp:Label>
@@ -62,7 +62,7 @@
             <tr>
                 <td class="auto-style7">Confirm New Password</td>
                 <td class="auto-style6">
-                    <asp:TextBox ID="TextBox3_newpword" runat="server" CssClass="auto-style13" Width="433px" TextMode="Password" ForeColor="White"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3_newpword" runat="server" CssClass="auto-style14" Width="433px" TextMode="Password" ForeColor="White"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
