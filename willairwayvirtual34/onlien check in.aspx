@@ -47,6 +47,10 @@
             font-size: xx-large;
             text-decoration: underline;
         }
+        .auto-style17 {
+            font-size: x-large;
+            background-color: #000000;
+        }
     </style>
 </head>
 <body>
@@ -59,16 +63,16 @@
         <table class="auto-style2">
             <tr>
                 <td class="auto-style3"><span class="auto-style11">Uname</span><br class="auto-style11" />
-                    <asp:TextBox ID="TextBox1_fltnum" runat="server" CssClass="auto-style11" Width="161px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1_fltnum" runat="server" CssClass="auto-style17" Width="161px" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style6"><span class="auto-style11">lastname</span><br class="auto-style11" />
-                    <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style11" Width="151px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style17" Width="151px" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style14"><span class="auto-style11">sig in time</span><br class="auto-style11" />
-                    <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style11" Width="157px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style17" Width="157px" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style12"><span class="auto-style11">flights Number</span><br class="auto-style11" />
-                    <asp:TextBox ID="TextBox3" runat="server" CssClass="auto-style11" Width="175px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" runat="server" CssClass="auto-style17" Width="175px" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style5">
                     <asp:Button ID="Button1" runat="server" Height="70px" Text="reporting in for duty" Width="289px" />

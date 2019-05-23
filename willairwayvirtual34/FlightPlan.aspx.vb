@@ -21,7 +21,7 @@ Partial Class FlightPlan
             cn.Open()
             cmd.ExecuteNonQuery()
             cn.Close()
-            Label3.Text = ("Plan filed")
+            Label3.Text = ("Plan filed to  Network Control ")
 
 
 

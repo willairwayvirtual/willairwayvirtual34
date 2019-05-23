@@ -65,6 +65,10 @@
             font-size: x-large;
             margin-left: 85px;
         }
+        .auto-style16 {
+            font-size: xx-large;
+            background-color: #000000;
+        }
         </style>
 </head>
 <body>
@@ -76,13 +80,13 @@
                 <tr>
                     <td class="auto-style3">Username</td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="TextBox1_uname" runat="server" CssClass="auto-style8" Width="425px"></asp:TextBox>
+                        <asp:TextBox ID="TextBox1_uname" runat="server" CssClass="auto-style16" Width="425px" ForeColor="White"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style4">Password </td>
                     <td class="auto-style7">
-                        <asp:TextBox ID="TextBox2_pword" runat="server" CssClass="auto-style8" TextMode="Password" Width="424px"></asp:TextBox>
+                        <asp:TextBox ID="TextBox2_pword" runat="server" CssClass="auto-style16" TextMode="Password" Width="424px" ForeColor="White"></asp:TextBox>
                         <asp:Label ID="Label2" runat="server" CssClass="auto-style6" Text="Login Status"></asp:Label>
                         <span class="auto-style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </span>

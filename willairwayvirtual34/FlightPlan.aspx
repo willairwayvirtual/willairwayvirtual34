@@ -75,12 +75,19 @@
         .auto-style24 {
             margin-left: 0px;
             font-size: xx-large;
+            background-color: #666666;
         }
         .auto-style25 {
             text-align: left;
         }
         .auto-style26 {
             font-size: medium;
+        }
+        .auto-style27 {
+            background-color: #000000;
+        }
+        .auto-style28 {
+            background-color: #333333;
         }
     </style>
 </head>
@@ -93,40 +100,40 @@
         <table class="auto-style2">
             <tr>
                 <td class="auto-style3">Flight Number<br />
-                    <asp:TextBox ID="TextBox1_fltnum" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1_fltnum" runat="server" CssClass="auto-style27" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style6">Departure Airport<br />
-                    <asp:TextBox ID="TextBox2_deptair" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2_deptair" runat="server" CssClass="auto-style27" ForeColor="White"></asp:TextBox>
                 </td>
-                <td class="auto-style8">Arrival Airport<asp:TextBox ID="TextBox3_arrair" runat="server"></asp:TextBox>
+                <td class="auto-style8">Arrival Airport<asp:TextBox ID="TextBox3_arrair" runat="server" CssClass="auto-style27" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style10">ETA<br />
-                    <asp:TextBox ID="TextBox4_eta" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox4_eta" runat="server" CssClass="auto-style27" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style5">Gate/Stand<br />
-                    <asp:TextBox ID="TextBox5_gate" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox5_gate" runat="server" CssClass="auto-style27" ForeColor="White"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style23">Aircraft Type<br />
-                    <asp:TextBox ID="TextBox6_actype" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox6_actype" runat="server" CssClass="auto-style27" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style13">TRIP FUEL<br />
-                    <asp:TextBox ID="TextBox7_fuel" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox7_fuel" runat="server" CssClass="auto-style27" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style14">Plan_name<br />
-                    <asp:TextBox ID="TextBox8_Plan" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox8_Plan" runat="server" CssClass="auto-style28" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style15">Departure time<br />
-                    <asp:TextBox ID="TextBox9_dtime" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox9_dtime" runat="server" CssClass="auto-style27" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style16">Pilot in Command<br />
-                    <asp:TextBox ID="TextBox10_pic" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox10_pic" runat="server" CssClass="auto-style27" ForeColor="White"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style17">NETWORK<br />
-                    <asp:TextBox ID="TextBox11_network" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox11_network" runat="server" CssClass="auto-style27" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style18">
                     <asp:Button ID="Button1" runat="server" Text="SEND  FlightPlan  to Network Control" Width="257px" />
@@ -137,7 +144,7 @@
         <p class="auto-style22">
             ATC ROUTE</p>
         <p class="auto-style22">
-            <asp:TextBox ID="TextBox12_route" runat="server" CssClass="auto-style24" Height="342px" TextMode="MultiLine" Width="1613px"></asp:TextBox>
+            <asp:TextBox ID="TextBox12_route" runat="server" CssClass="auto-style24" Height="342px" TextMode="MultiLine" Width="1613px" ForeColor="White"></asp:TextBox>
         </p>
         <p class="auto-style25">
         <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
