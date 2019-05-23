@@ -42,11 +42,15 @@
         .auto-style32 {
             font-size: medium;
         }
-        .auto-style33 {
-            font-size: large;
-        }
         .auto-style34 {
             margin-bottom: 3px;
+        }
+        .auto-style35 {
+            font-size: large;
+            background-color: #000000;
+        }
+        .auto-style36 {
+            background-color: #000000;
         }
     </style>
 </head>
@@ -59,16 +63,16 @@
         <table class="auto-style2">
             <tr>
                 <td class="auto-style30">Flight Number<br />
-                    <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style33" Height="23px" Width="171px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style35" Height="23px" Width="171px" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style26">Acrft type<br />
-                    <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style33" Height="23px" Width="140px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style35" Height="23px" Width="140px" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style27">Departure Airport<br />
-                    <asp:TextBox ID="TextBox3" runat="server" CssClass="auto-style33" Height="23px" Width="140px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" runat="server" CssClass="auto-style35" Height="23px" Width="140px" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style10">Arrival Airport<br />
-                    <asp:TextBox ID="TextBox4" runat="server" Height="23px" Width="140px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox4" runat="server" Height="23px" Width="140px" CssClass="auto-style36" ForeColor="White"></asp:TextBox>
                     <br />
                 </td>
             </tr>
