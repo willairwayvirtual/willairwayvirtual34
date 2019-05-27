@@ -49,6 +49,9 @@
             font-size: x-large;
             background-color: #999999;
         }
+        .auto-style26 {
+            font-size: x-large;
+        }
         </style>
 </head>
 <body>
@@ -76,6 +79,8 @@
                         &nbsp;<br />
                         &nbsp;
                         <asp:Label ID="Label4" runat="server" CssClass="auto-style6" Text="send ticket"></asp:Label>
+                        <br />
+            <asp:LoginStatus ID="LogoutStatus1" runat="server" LoginText="Logout" CssClass="auto-style26" />
                         <table class="auto-style11">
                             <tr>
                                 <td>
