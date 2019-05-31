@@ -25,7 +25,7 @@ Partial Class onlien_check_in
 
     End Sub
 
-    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Response.Redirect("wavstatus.aspx")
     End Sub
 End Class
