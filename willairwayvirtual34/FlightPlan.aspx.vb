@@ -5,7 +5,7 @@ Partial Class FlightPlan
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
-            Dim cmd As New OleDbCommand("insert into flightplan(fltnum,deptair,arrair,eta,gate,actype,fuel,plan,dtime,pic,network) values( @a1,@a2,@a3,@a4,@a5,@a6,@a7,@a8,@a9,@a10,@a11)", cn)
+            Dim cmd As New OleDbCommand("insert into flightplan(fltnum,deptair,arrair,eta,gate,actype,fuel,plan,dtime,pic,network,route) values( @a1,@a2,@a3,@a4,@a5,@a6,@a7,@a8,@a9,@a10,@a11,@a12)", cn)
             cmd.Parameters.AddWithValue("@a1", TextBox1_fltnum.Text)
             cmd.Parameters.AddWithValue("@a2", TextBox2_deptair.Text)
             cmd.Parameters.AddWithValue("@a3", TextBox3_arrair.Text)
@@ -17,7 +17,7 @@ Partial Class FlightPlan
             cmd.Parameters.AddWithValue("@a9", TextBox9_dtime.Text)
             cmd.Parameters.AddWithValue("@a10", TextBox10_pic.Text)
             cmd.Parameters.AddWithValue("@a11", TextBox11_network.Text)
-
+            cmd.Parameters.AddWithValue("@a12", TextBox12_route.Text)
             cn.Open()
             cmd.ExecuteNonQuery()
             cn.Close()
