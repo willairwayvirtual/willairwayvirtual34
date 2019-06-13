@@ -98,6 +98,10 @@
         .auto-style33 {
             font-size: medium;
         }
+        .auto-style34 {
+            background-color: #999999;
+            font-size: medium;
+        }
     </style>
 </head>
 <body>
@@ -116,7 +120,7 @@
                     <asp:TextBox ID="TextBox2_deptair" runat="server" CssClass="auto-style30" ForeColor="White"></asp:TextBox>
                 </td>
                 <td class="auto-style8"><span class="auto-style33">Arrival Airport<br />
-                    </span><asp:TextBox ID="TextBox3_arrair" runat="server" CssClass="auto-style30" ForeColor="White" Height="16px"></asp:TextBox>
+                    </span><asp:TextBox ID="TextBox3_arrair" runat="server" CssClass="auto-style34" ForeColor="White" Height="16px"></asp:TextBox>
                 </td>
                 <td class="auto-style10"><span class="auto-style32">ETA</span><br class="auto-style32" />
                     <asp:TextBox ID="TextBox4_eta" runat="server" CssClass="auto-style30" ForeColor="White"></asp:TextBox>

@@ -80,8 +80,10 @@
                 <td class="auto-style29">
                     <asp:Button ID="Button1" runat="server" Text="Search Schedule" Width="146px" />
                     <br />
-                    <span class="auto-style32">All bookings to be completed by 1900z</span>
-                    <asp:Button ID="Button2" runat="server" Text="go to book a flght" Width="159px" CssClass="auto-style34" Height="30px" />
+                    <span class="auto-style32">All bookings to be completed by 1900z<br />
+                    <br />
+                    </span>
+                    &nbsp;<asp:Button ID="Button2" runat="server" Text="go to book a flght" Width="159px" CssClass="auto-style34" Height="30px" />
                     <br />
                     <br />
                     <asp:Label ID="Label4" runat="server">Search wavschedule</asp:Label>

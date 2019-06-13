@@ -43,6 +43,16 @@
         <asp:Button ID="Button4" runat="server" Height="46px" Text="wav onlien check " Width="419px" CssClass="auto-style5" />
         <asp:Button ID="Support" runat="server" Height="45px" Text="wav Support" Width="344px" CssClass="auto-style2" />
         <asp:Button ID="Button5" runat="server" Height="45px" Text="cancelled fight" Width="318px" />
+        <br />
+        <br class="auto-style5" />
+        <asp:Label ID="Label4" runat="server" CssClass="auto-style5" Text="willairwayvirtua notams"></asp:Label>
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CssClass="auto-style5" DataKeyNames="whats_happening" DataSourceID="SqlDataSource1" Height="16px" Width="271px">
+            <Columns>
+                <asp:BoundField DataField="whats_happening" HeaderText="whats_happening" ReadOnly="True" SortExpression="whats_happening" />
+                <asp:BoundField DataField="when" HeaderText="when" SortExpression="when" />
+            </Columns>
+        </asp:GridView>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString9 %>" ProviderName="<%$ ConnectionStrings:ConnectionString9.ProviderName %>" SelectCommand="SELECT [whats happening] AS whats_happening, [when] FROM [notams]"></asp:SqlDataSource>
         <p>
         <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
         </p>
