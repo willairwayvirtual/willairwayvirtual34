@@ -8,12 +8,13 @@ Partial Class Create_an_Accountaspx
     End Sub
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1_create.Click
         Try
-            Dim cmd As New OleDbCommand("insert into tblaccessinfo(Fname,Lname,EMailAdd,uname,Pword) values( @a1,@a2,@a3,@a4,@a5)", cn)
+            Dim cmd As New OleDbCommand("insert into tblaccessinfo(Fname,Lname,EMailAdd,uname,Pword,HOMEICAO) values( @a1,@a2,@a3,@a4,@a5,@a6)", cn)
             cmd.Parameters.AddWithValue("@a1", TextBox1_fname.Text)
             cmd.Parameters.AddWithValue("@a2", TextBox2_Lname.Text)
             cmd.Parameters.AddWithValue("@a3", TextBox4_email.Text)
             cmd.Parameters.AddWithValue("@a4", TextBox3_uname.Text)
             cmd.Parameters.AddWithValue("@a5", TextBox6_pword.Text)
+            cmd.Parameters.AddWithValue("@a6", TextBox7_hoem.Text)
             cn.Open()
             cmd.ExecuteNonQuery()
             cn.Close()
