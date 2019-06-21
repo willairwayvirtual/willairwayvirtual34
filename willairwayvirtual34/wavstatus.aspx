@@ -43,6 +43,7 @@
         <asp:Button ID="Button4" runat="server" Height="46px" Text="wav onlien check " Width="419px" CssClass="auto-style5" />
         <asp:Button ID="Support" runat="server" Height="45px" Text="wav Support" Width="344px" CssClass="auto-style2" />
         <asp:Button ID="Button5" runat="server" Height="45px" Text="cancelled fight" Width="318px" />
+        <asp:Button ID="Button6" runat="server" Height="52px" Text="wav News &amp; Announcements" Width="569px" />
         <br class="auto-style5" />
         <asp:Label ID="Label4" runat="server" CssClass="auto-style5" Text="willairwayvirtua notams"></asp:Label>
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CssClass="auto-style5" DataKeyNames="whats_happening" DataSourceID="SqlDataSource1" Height="16px" Width="817px" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" GridLines="Horizontal">

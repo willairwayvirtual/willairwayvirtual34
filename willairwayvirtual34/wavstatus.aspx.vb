@@ -27,4 +27,8 @@ Partial Class wavstratus_aspx
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         Response.Redirect("cancelled fighta.aspx")
     End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Response.Redirect("News  Announcements.aspx")
+    End Sub
 End Class
