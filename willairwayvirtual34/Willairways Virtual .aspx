@@ -64,6 +64,8 @@
                 <asp:Button ID="Button1" runat="server" CssClass="auto-style9" Height="46px" Text="use online" Width="438px" BackColor="#FF9900" />
             &nbsp;&nbsp;
                 <asp:Button ID="Button4" runat="server" CssClass="auto-style9" Height="46px" Text="Standard Operational Procedures" Width="504px" BackColor="#999999" />
+                <asp:Button ID="Button5" runat="server" BackColor="#999999" CssClass="auto-style9" Height="45px" Text="Download wav Dispatch Center" Width="531px" />
+                <asp:Button ID="Button6" runat="server" CssClass="auto-style9" Height="46px" Text="Download wav Dispatch Center Manual" Width="622px" BackColor="#999999" />
             </p>
             <p class="auto-style5">
                 To process updates please deinstall and install the latest version</p>
