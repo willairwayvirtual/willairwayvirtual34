@@ -102,6 +102,15 @@
             background-color: #999999;
             font-size: medium;
         }
+        .auto-style35 {
+            font-size: xx-large;
+            text-decoration: underline;
+        }
+        .auto-style36 {
+            text-align: center;
+            text-decoration: underline;
+            font-size: xx-large;
+        }
     </style>
 </head>
 <body>
@@ -156,10 +165,16 @@
                 </td>
             </tr>
         </table>
-        <p class="auto-style22">
+        <p class="auto-style36">
             ATC ROUTE</p>
         <p class="auto-style22">
-            <asp:TextBox ID="TextBox12_route" runat="server" CssClass="auto-style24" Height="342px" TextMode="MultiLine" Width="1613px" ForeColor="White"></asp:TextBox>
+            <asp:TextBox ID="TextBox12_route" runat="server" CssClass="auto-style24" Height="87px" TextMode="MultiLine" Width="1492px" ForeColor="White"></asp:TextBox>
+        </p>
+        <p class="auto-style22">
+            <asp:Label ID="Label4" runat="server" CssClass="auto-style35" Text="ALTERNATE PLANNING"></asp:Label>
+        </p>
+        <p class="auto-style22">
+            <asp:TextBox ID="TextBox12_alte" runat="server" CssClass="auto-style24" Height="87px" TextMode="MultiLine" Width="1492px" ForeColor="White"></asp:TextBox>
         </p>
         <p class="auto-style25">
         <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
