@@ -123,9 +123,20 @@
                 <td class="auto-style17">HOME AIRPORT ICAO</td>
                 <td>
                     <asp:TextBox ID="TextBox7_hoem" runat="server" BackColor="#999999" CssClass="auto-style18" Width="454px"></asp:TextBox>
+                    <br />
                 </td>
             </tr>
         </table>
+        <table class="auto-style16">
+            <tr>
+                <td class="auto-style17">EMail notifications</td>
+                <td>
+                    <asp:TextBox ID="TextBox8_enote" runat="server" BackColor="#999999" CssClass="auto-style18" Width="243px"></asp:TextBox>
+                &nbsp;<br />
+                </td>
+            </tr>
+        </table>
+        <br />
         <br />
         <asp:Button ID="Button1_create" runat="server" Text="Sign up in to willairways Virtual" Width="766px" BackColor="#999999" CssClass="auto-style11" Height="54px" />
         <asp:Button ID="Button2" runat="server" Height="63px" Text="Go back to the login screen" Width="762px" BackColor="#999999" />
