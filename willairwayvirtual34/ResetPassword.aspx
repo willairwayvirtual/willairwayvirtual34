@@ -69,6 +69,10 @@
         </table>
         <asp:Button ID="Button1_update" runat="server" Text="Update Password " Width="835px" BackColor="#FF9900" CssClass="auto-style12" Height="86px" />
         <p class="auto-style11">
+            &nbsp;</p>
+        <p class="auto-style11">
+            &nbsp;</p>
+        <p class="auto-style11">
             <asp:Label ID="Label3" runat="server" CssClass="auto-style1" Text="Reset&nbsp; your Password "></asp:Label>
         </p>
         <p class="auto-style11">
