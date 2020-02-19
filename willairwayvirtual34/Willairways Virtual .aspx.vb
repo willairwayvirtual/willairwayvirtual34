@@ -19,17 +19,4 @@ Partial Class Willairways_Virtual_
         Response.End()
     End Sub
 
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        Response.ContentType = "image/msi"
-        Response.AppendHeader("Content-Disposition", "attachment; filename=wav Dispatchmsi")
-        Response.TransmitFile(Server.MapPath("app_data/downloads/wav Dispatch.msi"))
-        Response.End()
-    End Sub
-
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        Response.ContentType = "image/pdf"
-        Response.AppendHeader("Content-Disposition", "attachment; filename=wav Dispatch Center.pdf")
-        Response.TransmitFile(Server.MapPath("app_data/downloads/wav Dispatch Center.pdf"))
-        Response.End()
-    End Sub
 End Class

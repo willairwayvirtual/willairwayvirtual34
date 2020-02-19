@@ -48,8 +48,8 @@
         <asp:Button ID="Button5" runat="server" Height="45px" Text="cancelled fight" Width="318px" />
         <asp:Button ID="Button6" runat="server" Height="52px" Text="wav News &amp; Announcements" Width="569px" />
         <br />
-                <asp:Button ID="Button7" runat="server" BackColor="#999999" CssClass="auto-style9" Height="45px" Text="Download wav Dispatch Center" Width="531px" />
-                <asp:Button ID="Button8" runat="server" CssClass="auto-style9" Height="46px" Text="Download wav Dispatch Center Manual" Width="622px" BackColor="#999999" />
+                <asp:Button ID="Button7" runat="server" CssClass="auto-style9" Height="45px" Text="Download wav Dispatch Center" Width="531px" />
+                <asp:Button ID="Button8" runat="server" CssClass="auto-style9" Height="46px" Text="Download wav Dispatch Center Manual" Width="622px" />
         <br class="auto-style5" />
         <asp:Label ID="Label4" runat="server" CssClass="auto-style5" Text="willairwayvirtua notams"></asp:Label>
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CssClass="auto-style5" DataKeyNames="whats_happening" DataSourceID="SqlDataSource1" Height="16px" Width="817px" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" GridLines="Horizontal">
