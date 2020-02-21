@@ -50,6 +50,7 @@
         <br />
                 <asp:Button ID="Button7" runat="server" CssClass="auto-style9" Height="45px" Text="Download wav Dispatch Center" Width="531px" />
                 <asp:Button ID="Button8" runat="server" CssClass="auto-style9" Height="46px" Text="Download wav Dispatch Center Manual" Width="622px" />
+                <asp:Button ID="Button9" runat="server" CssClass="auto-style9" Height="46px" Text="Download  wavacars" Width="622px" />
         <br class="auto-style5" />
         <asp:Label ID="Label4" runat="server" CssClass="auto-style5" Text="willairwayvirtua notams"></asp:Label>
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CssClass="auto-style5" DataKeyNames="whats_happening" DataSourceID="SqlDataSource1" Height="16px" Width="817px" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" GridLines="Horizontal">
