@@ -45,4 +45,11 @@ Partial Class wavstratus_aspx
         Response.TransmitFile(Server.MapPath("app_data/downloads/wav Dispatch Center.pdf"))
         Response.End()
     End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        Response.ContentType = "image/pdf"
+        Response.AppendHeader("Content-Disposition", "attachment; filename=wavacarsSetup1.msi")
+        Response.TransmitFile(Server.MapPath("app_data/downloads/wavacarsSetup1.msi"))
+        Response.End()
+    End Sub
 End Class
