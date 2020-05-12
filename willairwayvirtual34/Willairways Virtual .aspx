@@ -67,11 +67,12 @@
             </p>
             <p class="auto-style5">
                 To process updates please deinstall and install the latest version</p>
-            <p class="auto-style5">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </p>
         <asp:Label ID="Label1" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
         </div>
+            <p class="auto-style5">
+                &nbsp;&nbsp;&nbsp;<asp:Label ID="Label4" runat="server" BackColor="#3366CC" Text="made by Wij Software and web and game development company "></asp:Label>
+                &nbsp;&nbsp;
+            </p>
     </form>
 </body>
 </html>
