@@ -84,8 +84,7 @@
                         <table class="auto-style11">
                             <tr>
                                 <td>
-        <asp:Label ID="Label3" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
-                                </td>
+                                    &nbsp;</td>
                             </tr>
                         </table>
                     </td>

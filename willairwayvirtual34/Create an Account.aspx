@@ -141,8 +141,7 @@
         <asp:Button ID="Button1_create" runat="server" Text="Sign up in to willairways Virtual" Width="766px" BackColor="#999999" CssClass="auto-style11" Height="54px" />
         <asp:Button ID="Button2" runat="server" Height="63px" Text="Go back to the login screen" Width="762px" BackColor="#999999" />
         <p>
-        <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
-        </p>
+            &nbsp;</p>
     </form>
 </body>
 </html>

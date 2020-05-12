@@ -164,8 +164,7 @@
             <asp:TextBox ID="TextBox12_route" runat="server" CssClass="auto-style24" Height="641px" TextMode="MultiLine" Width="1492px" ForeColor="White"></asp:TextBox>
         </p>
         <p class="auto-style22">
-        <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
-        </p>
+            &nbsp;</p>
     </form>
 </body>
 </html>

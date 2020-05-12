@@ -76,8 +76,7 @@
             <asp:Label ID="Label3" runat="server" CssClass="auto-style1" Text="Reset&nbsp; your Password "></asp:Label>
         </p>
         <p class="auto-style11">
-        <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
-        </p>
+            &nbsp;</p>
     </form>
     <p class="auto-style11">
         &nbsp;</p>
