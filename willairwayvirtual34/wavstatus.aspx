@@ -46,7 +46,6 @@
         <asp:Button ID="Button4" runat="server" Height="46px" Text="wav onlien check " Width="419px" CssClass="auto-style5" />
         <asp:Button ID="Support" runat="server" Height="45px" Text="wav Support" Width="344px" CssClass="auto-style2" />
         <asp:Button ID="Button5" runat="server" Height="45px" Text="cancelled fight" Width="318px" />
-        <asp:Button ID="Button6" runat="server" Height="52px" Text="wav News &amp; Announcements" Width="569px" />
         <br />
                 <asp:Button ID="Button7" runat="server" CssClass="auto-style9" Height="45px" Text="Download wav Dispatch Center" Width="531px" />
                 <asp:Button ID="Button8" runat="server" CssClass="auto-style9" Height="46px" Text="Download wav Dispatch Center Manual" Width="622px" />
@@ -69,6 +68,18 @@
             <SortedDescendingHeaderStyle BackColor="#275353" />
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString9 %>" ProviderName="<%$ ConnectionStrings:ConnectionString9.ProviderName %>" SelectCommand="SELECT [whats happening] AS whats_happening, [when] FROM [notams]"></asp:SqlDataSource>
+        <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource2" Height="240px" Width="906px">
+            <Columns>
+                <asp:BoundField DataField="News" HeaderText="News" SortExpression="News" />
+                <asp:BoundField DataField="Announcements" HeaderText="Announcements" SortExpression="Announcements" />
+                <asp:BoundField DataField="wav_events" HeaderText="wav_events" SortExpression="wav_events" />
+            </Columns>
+        </asp:GridView>
+        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString12 %>" ProviderName="<%$ ConnectionStrings:ConnectionString12.ProviderName %>" SelectCommand="SELECT [News], [Announcements], [wav events] AS wav_events FROM [News &amp; Announcements]"></asp:SqlDataSource>
+        <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
         <p>
         <asp:Label ID="Label2" runat="server" BackColor="#3366CC" Text="Copyright © 2018  Willairways Virtual All rights reserved."></asp:Label>
         </p>

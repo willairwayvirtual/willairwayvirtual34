@@ -28,9 +28,8 @@ Partial Class wavstratus_aspx
         Response.Redirect("cancelled fighta.aspx")
     End Sub
 
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        Response.Redirect("News  Announcements.aspx")
-    End Sub
+
+
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
         Response.ContentType = "image/msi"
