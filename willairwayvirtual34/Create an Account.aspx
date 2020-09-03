@@ -137,6 +137,15 @@
             </tr>
         </table>
         <br />
+        <table class="auto-style16">
+            <tr>
+                <td class="auto-style17">wav Dispatch License Key </td>
+                <td>
+                    <asp:TextBox ID="TextBox9_lkey" runat="server" BackColor="#999999" CssClass="auto-style18" Width="243px"></asp:TextBox>
+                &nbsp;<br />
+                </td>
+            </tr>
+        </table>
         <br />
         <asp:Button ID="Button1_create" runat="server" Text="Sign up in to willairways Virtual" Width="766px" BackColor="#999999" CssClass="auto-style11" Height="54px" />
         <asp:Button ID="Button2" runat="server" Height="63px" Text="Go back to the login screen" Width="762px" BackColor="#999999" />
