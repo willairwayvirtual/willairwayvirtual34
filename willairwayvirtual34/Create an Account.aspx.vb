@@ -1,4 +1,5 @@
 ﻿Imports System.Data.OleDb '
+Imports System.Net.Mail
 Partial Class Create_an_Accountaspx
     Inherits System.Web.UI.Page
     Dim cn As New OleDbConnection("Provider=Microsoft.ace.Oledb.12.0;Data Source=" & Server.MapPath("app_data\willairwayvirtualDbv1.accdb"))
@@ -29,5 +30,21 @@ Partial Class Create_an_Accountaspx
             Label1.Text = ex.Message
 
         End Try
+        Dim mail As New MailMessage
+
+        ' mail.To.Add("Wavuserhelpdesk@hotmail.com")
+        mail.To.Add("TextBox4_email.Text")
+        mail.From = New MailAddress("Wavuserhelpdesk@hotmail.com")
+        Dim Welcome As String = Nothing
+        mail.Body = "From: " & Welcome
+        'mail.Body = "From: Dad"
+        Dim smtp As New SmtpClient("smtp-mail.outlook.com")
+        'Dim smtp As New SmtpClient("smtp.live.com")
+        smtp.EnableSsl = True
+        smtp.Credentials = New System.Net.NetworkCredential("Wavuserhelpdesk@hotmail.com", "Spongebob97")
+        smtp.Port = "587"
+        'smtp.Port = "25"
+        smtp.Send(mail)
+
     End Sub
 End Class
