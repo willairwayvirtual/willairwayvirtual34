@@ -1,4 +1,5 @@
 ﻿Imports System.Data.OleDb '
+Imports System.IO
 Imports System.Net.Mail
 Partial Class Create_an_Accountaspx
     Inherits System.Web.UI.Page
@@ -33,13 +34,16 @@ Partial Class Create_an_Accountaspx
         Dim mail As New MailMessage
 
         ' mail.To.Add("Wavuserhelpdesk@hotmail.com")
-        mail.To.Add("TextBox4_email.Text")
-        mail.From = New MailAddress("Wavuserhelpdesk@hotmail.com")
-        Dim Welcome As String = Nothing
-        mail.Body = "From: " & Welcome
-        'mail.Body = "From: Dad"
+
+        Dim body As String = String.Empty
+        Dim reader As StreamReader = New StreamReader("C:\VisStudioProj\wav login Desktop App23\wav login Desktop App23\email_template.htm")
         Dim smtp As New SmtpClient("smtp-mail.outlook.com")
-        'Dim smtp As New SmtpClient("smtp.live.com")
+
+        mail.To.Add(TextBox4_email.Text)
+        mail.From = New MailAddress("Wavuserhelpdesk@hotmail.com")
+        mail.Body = reader.ReadToEnd
+        mail.IsBodyHtml = True
+
         smtp.EnableSsl = True
         smtp.Credentials = New System.Net.NetworkCredential("Wavuserhelpdesk@hotmail.com", "Spongebob97")
         smtp.Port = "587"
