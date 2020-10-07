@@ -32,7 +32,7 @@ Partial Class Create_an_Accountaspx
 
         End Try
         Dim mail As New MailMessage
-
+        mail.Subject = "Welcome on board"
         ' mail.To.Add("Wavuserhelpdesk@hotmail.com")
 
         Dim body As String = String.Empty
