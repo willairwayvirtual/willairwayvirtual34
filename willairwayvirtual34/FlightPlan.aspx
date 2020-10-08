@@ -159,6 +159,7 @@
             </tr>
         </table>
         <p class="auto-style36">
+            <asp:FileUpload ID="FileUpload1" runat="server" />
             ATC ROUTE</p>
         <p class="auto-style22">
             <asp:TextBox ID="TextBox12_route" runat="server" CssClass="auto-style24" Height="641px" TextMode="MultiLine" Width="1492px" ForeColor="White"></asp:TextBox>
