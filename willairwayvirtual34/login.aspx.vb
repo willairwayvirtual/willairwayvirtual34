@@ -44,7 +44,7 @@ Partial Class Login
 
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        Response.Redirect("ResetPassword.aspx")
+        Response.Redirect("ForgotPassword.aspx")
     End Sub
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 
