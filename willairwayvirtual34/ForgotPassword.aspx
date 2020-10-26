@@ -36,7 +36,7 @@
     <form id="form1" runat="server">
         <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="auto-style2" />
         <p class="auto-style3">
-            &nbsp;ForgotPassword</p>
+            &nbsp;Forgot Password</p>
         <table class="auto-style15">
             <tr>
                 <td class="auto-style6">Email address<br />
