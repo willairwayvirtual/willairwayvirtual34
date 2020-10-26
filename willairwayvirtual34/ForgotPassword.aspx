@@ -43,7 +43,7 @@
                 </td>
                 <td class="auto-style2">
                     <asp:TextBox ID="TextBox4_email" runat="server" CssClass="auto-style14" Width="449px" Height="44px" ForeColor="White"></asp:TextBox>
-                    <asp:Button ID="Button1" runat="server" Height="50px" Text="Button" Width="325px" />
+                    <asp:Button ID="Button1" runat="server" Height="50px" Text="send" Width="325px" />
                 </td>
                 <td class="auto-style8">
                     <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
