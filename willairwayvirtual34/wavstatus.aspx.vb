@@ -34,7 +34,7 @@ Partial Class wavstratus_aspx
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
         Response.ContentType = "image/msi"
         Response.AppendHeader("Content-Disposition", "attachment; filename=wavDispatch3.exe.msi")
-        Response.TransmitFile(Server.MapPath(" app_data/downloads/wav Dispatch3.exe.msi"))
+        Response.TransmitFile(Server.MapPath(" app_data/downloads/wav Dispatch3.exe.msiq    "))
         Response.End()
         Response.End()
     End Sub
