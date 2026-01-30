@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36908.2 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "willairwayvirtual34", "willairwayvirtual34\", "{75F41D56-C3C9-48F6-B3E4-4B22E9CFFA66}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_54404"
 		Debug.AspNetCompiler.PhysicalPath = "willairwayvirtual34\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54404\"
