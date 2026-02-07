@@ -29,22 +29,23 @@ Partial Class ForgotPassword2aspx
         If result > 0 Then
             Dim mail As New MailMessage
             mail.Subject = "Reset Password"
-            ' mail.To.Add("Wavuserhelpdesk@hotmail.com")
+            ' mail.To.Add("support@wijsoftware.com.com")
 
             Dim body As String = String.Empty
-            Dim reader As StreamReader = New StreamReader("C:\VisStudioProj\wav web\willairwayvirtual34\willairwayvirtual34\email templates\resetpassword.html")
-            Dim smtp As New SmtpClient("smtp-mail.outlook.com")
+            Dim reader As StreamReader = New StreamReader("C:\VisStudioProj\wav web\willairwayvirtual34\willairwayvirtual34\email templates\ResetPassword.html")
+            Dim smtp As New SmtpClient(" smtppro.zoho.eu")
 
             mail.To.Add(TextBox4_email.Text)
-            mail.From = New MailAddress("Wavuserhelpdesk@hotmail.com")
+            mail.From = New MailAddress("support@wijsoftware.com.com")
             mail.Body = reader.ReadToEnd
             mail.IsBodyHtml = True
 
             smtp.EnableSsl = True
-            smtp.Credentials = New System.Net.NetworkCredential("Wavuserhelpdesk@hotmail.com", "!Spongebob18")
-            smtp.Port = "587"
+            smtp.Credentials = New System.Net.NetworkCredential("support@wijsoftware.com", "!Spongebob974")
+            smtp.Port = " 587"
             'smtp.Port = "25"
             smtp.Send(mail)
+
             Label1.Text = "Reset email sent"
 
         Else

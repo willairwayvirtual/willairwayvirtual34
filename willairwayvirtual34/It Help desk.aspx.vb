@@ -9,15 +9,15 @@ Partial Class It_Help_desk
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
  Dim mail As New MailMessage
         mail.Subject = MailSubject.Text
-        ' mail.To.Add("Wavuserhelpdesk@hotmail.com")
-        mail.To.Add("Wavuserhelpdesk@hotmail.com")
-        mail.From = New MailAddress("Wavuserhelpdesk@hotmail.com")
+        ' mail.To.Add(support@wijsoftware.com")
+        mail.To.Add("support@wijsoftware.com")
+        mail.From = New MailAddress("support@wijsoftware.com")
         mail.Body = "From: " & (Umail11.Text) & " Query Text: " & Qry.Text
         'mail.Body = "From: Dad"
-        Dim smtp As New SmtpClient("smtp-mail.outlook.com")
-        'Dim smtp As New SmtpClient("smtp.live.com")
+        Dim smtp As New SmtpClient("smtppro.zoho.eu")
+        'Dim smtp As New SmtpClient("smtppro.zoho.eu")
         smtp.EnableSsl = True
-        smtp.Credentials = New System.Net.NetworkCredential("Wavuserhelpdesk@hotmail.com", "!Spongebob18")
+        smtp.Credentials = New System.Net.NetworkCredential("support@wijsoftware.com", "!Spongebob974")
         smtp.Port = "587"
         'smtp.Port = "25"
         smtp.Send(mail)

@@ -33,19 +33,19 @@ Partial Class Create_an_Accountaspx
         End Try
         Dim mail As New MailMessage
         mail.Subject = "Welcome on board"
-        ' mail.To.Add("Wavuserhelpdesk@hotmail.com")
+        ' mail.To.Add("support@wijsoftware.com.com")
 
         Dim body As String = String.Empty
         Dim reader As StreamReader = New StreamReader("C:\VisStudioProj\wav web\willairwayvirtual34\willairwayvirtual34\email templates\signup1.html")
-        Dim smtp As New SmtpClient("smtp-mail.outlook.com")
+        Dim smtp As New SmtpClient(" smtppro.zoho.eu")
 
         mail.To.Add(TextBox4_email.Text)
-        mail.From = New MailAddress("Wavuserhelpdesk@hotmail.com")
+        mail.From = New MailAddress("support@wijsoftware.com.com")
         mail.Body = reader.ReadToEnd
         mail.IsBodyHtml = True
 
         smtp.EnableSsl = True
-        smtp.Credentials = New System.Net.NetworkCredential("Wavuserhelpdesk@hotmail.com", "!Spongebob18")
+        smtp.Credentials = New System.Net.NetworkCredential("support@wijsoftware.com", "!Spongebob974")
         smtp.Port = "587"
         'smtp.Port = "25"
         smtp.Send(mail)
