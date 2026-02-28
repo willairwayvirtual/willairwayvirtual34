@@ -2,7 +2,7 @@
 Partial Class wavstratus_aspx
     Inherits System.Web.UI.Page
     Private Sub wavstatus_load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Label3.Text = "Welcome " & Request.Cookies("Details").Value
+        Label3.Text = "Welcome            totalhours  " & Request.Cookies("Details").Value
     End Sub
     Private Sub Support_Click(sender As Object, e As EventArgs) Handles Support.Click
         Response.Redirect("It Help desk.aspx")
