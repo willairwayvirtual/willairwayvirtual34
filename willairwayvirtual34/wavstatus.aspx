@@ -47,8 +47,6 @@
         <asp:Button ID="Support" runat="server" Height="45px" Text="wav Support" Width="344px" CssClass="auto-style2" />
         <asp:Button ID="Button5" runat="server" Height="45px" Text="cancelled fight" Width="318px" />
         <br />
-                <asp:Button ID="Button7" runat="server" CssClass="auto-style9" Height="45px" Text="Download wav Dispatch Center" Width="531px" />
-                <asp:Button ID="Button8" runat="server" CssClass="auto-style9" Height="46px" Text="Download wav Dispatch Center Manual" Width="622px" />
                 <asp:Button ID="Button9" runat="server" CssClass="auto-style9" Height="46px" Text="Download wavacars" Width="622px" />
         <br class="auto-style5" />
         <asp:Label ID="Label4" runat="server" CssClass="auto-style5" Text="willairwayvirtua notams"></asp:Label>
