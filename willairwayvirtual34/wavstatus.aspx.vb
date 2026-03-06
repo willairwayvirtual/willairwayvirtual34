@@ -31,20 +31,7 @@ Partial Class wavstratus_aspx
 
 
 
-    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
-        Response.ContentType = "image/msi"
-        Response.AppendHeader("Content-Disposition", "attachment; filename=wavDispatch3.exe.msi")
-        Response.TransmitFile(Server.MapPath(" app_data/downloads/wav Virtual Dispatcher.msi    "))
-        Response.End()
-        Response.End()
-    End Sub
 
-    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
-        Response.ContentType = "image/pdf"
-        Response.AppendHeader("Content-Disposition", "attachment; filename=wav Dispatch Center.pdf")
-        Response.TransmitFile(Server.MapPath("app_data/downloads/wav Dispatch Center.pdf"))
-        Response.End()
-    End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
         Response.ContentType = "image/pdf"
