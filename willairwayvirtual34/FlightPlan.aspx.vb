@@ -22,10 +22,13 @@ Partial Class FlightPlan
             cmd.Parameters.AddWithValue("@a12", TextBox12_route.Text)
             cmd.ExecuteNonQuery()
             ' Second insert
-            Dim cmd2 As New OleDbCommand("INSERT INTO acars_log (route, gate) VALUES (@b12, @b13)", cn)
+            Dim cmd2 As New OleDbCommand("INSERT INTO acars_log (fltnum,route, gate,arrair,deptair) VALUES (@b1,@b12, @b5, @b3, @b2)", cn)
 
             cmd2.Parameters.AddWithValue("@b12", TextBox12_route.Text)
-            cmd2.Parameters.AddWithValue("@b13", TextBox5_gate.Text)
+            cmd2.Parameters.AddWithValue("@b5", TextBox5_gate.Text)
+            cmd2.Parameters.AddWithValue("@b3", TextBox3_arrair.Text)
+            cmd2.Parameters.AddWithValue("@b5", TextBox1_fltnum.Text)
+            cmd2.Parameters.AddWithValue("@b1", TextBox2_deptair.Text)
             cmd2.ExecuteNonQuery()
             Label3.Text = ("Plan filed to  Network Control ")
 
