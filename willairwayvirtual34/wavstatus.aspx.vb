@@ -31,7 +31,7 @@ Partial Class wavstratus_aspx
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
         Response.ContentType = "image/pdf"
-        Response.AppendHeader("Content-Disposition", "attachment; filename=wavacarsSetup1exe.msi")
+        Response.AppendHeader("Content-Disposition", "attachment; filename=wavacarsSetup1.msi")
         Response.TransmitFile(Server.MapPath("app_data/downloads/wavacarsSetup1exe.msi"))
         Response.End()
     End Sub
